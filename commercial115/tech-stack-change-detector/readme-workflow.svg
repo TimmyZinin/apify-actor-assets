@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Evidence-first website stack comparison workflow</title>
+  <desc id="desc">Five stages from URL and baseline input through guarded fetch, signature provenance, conservative comparison, and review-ready output.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8F4ED"/><stop offset="1" stop-color="#EEEAF6"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#E79A43"/><stop offset="1" stop-color="#C64E7B"/></linearGradient>
+    <style>.sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}.navy{fill:#171A2A}.muted{fill:#686879}.step{font-size:19px;font-weight:800;letter-spacing:1.5px}.title{font-size:29px;font-weight:800}.body{font-size:20px}.tiny{font-size:17px}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}</style>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#403552" flood-opacity="0.16"/></filter>
+  </defs>
+  <rect width="1600" height="900" rx="42" fill="url(#bg)"/>
+  <g class="sans">
+    <text x="78" y="105" class="navy" font-size="48" font-weight="840">From submitted URL to a defensible change lead</text>
+    <text x="80" y="151" class="muted" font-size="24">Every stage narrows what the data can honestly support.</text>
+    <rect x="1230" y="70" width="292" height="58" rx="29" fill="#231B31"/><text x="1270" y="108" font-size="21" font-weight="780" fill="#FFD39A">EVIDENCE, NOT INFERENCE</text>
+
+    <path d="M210 408 H1390" stroke="url(#line)" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+
+    <g filter="url(#shadow)">
+      <g transform="translate(76 226)">
+        <rect width="270" height="380" rx="26" fill="#FFFFFF"/>
+        <circle cx="46" cy="48" r="25" fill="#FFE0B8"/><text x="39" y="56" class="step" fill="#8C4C08">1</text>
+        <text x="82" y="56" class="step" fill="#9A5A16">INPUT</text>
+        <text x="28" y="112" class="title navy">URL + baseline</text>
+        <rect x="28" y="144" width="214" height="66" rx="14" fill="#F7F3ED"/><text x="44" y="171" class="tiny mono" fill="#4F4D58">example.com|</text><text x="44" y="194" class="tiny mono" fill="#8B5466">WordPress,jQuery</text>
+        <text x="28" y="249" class="body muted">Strict strings</text><text x="28" y="280" class="body muted">HTTP(S) only</text><text x="28" y="311" class="body muted">1–100 unique checks</text>
+        <rect x="28" y="334" width="166" height="34" rx="17" fill="#FFF1DD"/><text x="44" y="357" class="tiny" fill="#8C4C08">baseline optional</text>
+      </g>
+
+      <g transform="translate(371 226)">
+        <rect width="270" height="380" rx="26" fill="#FFFFFF"/>
+        <circle cx="46" cy="48" r="25" fill="#DCE7FF"/><text x="39" y="56" class="step" fill="#2858A5">2</text>
+        <text x="82" y="56" class="step" fill="#3566B1">GUARDS</text>
+        <text x="28" y="112" class="title navy">Safe page read</text>
+        <g transform="translate(28 148)"><rect width="214" height="42" rx="12" fill="#EFF4FF"/><text x="18" y="28" class="tiny" fill="#355E9C">DNS + IP pinning</text><rect y="54" width="214" height="42" rx="12" fill="#EFF4FF"/><text x="18" y="82" class="tiny" fill="#355E9C">Guard every redirect</text><rect y="108" width="214" height="42" rx="12" fill="#EFF4FF"/><text x="18" y="136" class="tiny" fill="#355E9C">robots.txt + type</text><rect y="162" width="214" height="42" rx="12" fill="#EFF4FF"/><text x="18" y="190" class="tiny" fill="#355E9C">timeout + byte cap</text></g>
+        <text x="28" y="358" class="tiny muted">No browser · no login</text>
+      </g>
+
+      <g transform="translate(666 226)">
+        <rect width="270" height="380" rx="26" fill="#FFFFFF"/>
+        <circle cx="46" cy="48" r="25" fill="#D8F3EB"/><text x="39" y="56" class="step" fill="#18745F">3</text>
+        <text x="82" y="56" class="step" fill="#237E69">EVIDENCE</text>
+        <text x="28" y="112" class="title navy">Catalog signals</text>
+        <circle cx="48" cy="164" r="8" fill="#46B89D"/><text x="68" y="171" class="body navy">Public HTML</text>
+        <circle cx="48" cy="210" r="8" fill="#46B89D"/><text x="68" y="217" class="body navy">Final URL</text>
+        <circle cx="48" cy="256" r="8" fill="#46B89D"/><text x="68" y="263" class="body navy">Header names</text>
+        <circle cx="48" cy="302" r="8" fill="#46B89D"/><text x="68" y="309" class="body navy">Site-scoped paths</text>
+        <text x="28" y="352" class="tiny muted">No raw header values</text>
+      </g>
+
+      <g transform="translate(961 226)">
+        <rect width="270" height="380" rx="26" fill="#FFFFFF"/>
+        <circle cx="46" cy="48" r="25" fill="#FFE1EA"/><text x="39" y="56" class="step" fill="#A83D62">4</text>
+        <text x="82" y="56" class="step" fill="#B74A70">COMPARE</text>
+        <text x="28" y="112" class="title navy">Candidate diff</text>
+        <rect x="28" y="148" width="214" height="58" rx="14" fill="#EAF8F4"/><text x="46" y="184" class="body" fill="#18745F">+ observed now</text>
+        <rect x="28" y="220" width="214" height="58" rx="14" fill="#FFF0F4"/><text x="46" y="256" class="body" fill="#A83D62">○ not observed</text>
+        <text x="28" y="313" class="tiny muted">Absence ≠ removal</text><text x="28" y="341" class="tiny muted">Baseline ≠ verified truth</text>
+      </g>
+
+      <g transform="translate(1256 226)">
+        <rect width="270" height="380" rx="26" fill="#241D31"/>
+        <circle cx="46" cy="48" r="25" fill="#FFCA88"/><text x="39" y="56" class="step" fill="#713D08">5</text>
+        <text x="82" y="56" class="step" fill="#FFD39A">DECIDE</text>
+        <text x="28" y="112" class="title" fill="#FFFFFF">Review output</text>
+        <text x="28" y="163" class="body" fill="#E7E1ED">Confidence + gaps</text><text x="28" y="201" class="body" fill="#E7E1ED">Stable join IDs</text><text x="28" y="239" class="body" fill="#E7E1ED">Freshness</text><text x="28" y="277" class="body" fill="#E7E1ED">Next action</text>
+        <rect x="28" y="312" width="214" height="48" rx="24" fill="#FFB15B"/><text x="44" y="343" class="tiny mono" fill="#302033">safeToAutomate: false</text>
+      </g>
+    </g>
+
+    <g transform="translate(76 672)">
+      <rect width="1450" height="142" rx="28" fill="#FFFFFF" stroke="#DDD6E6"/>
+      <text x="35" y="48" class="step" fill="#7D7387">OUTPUT CONTRACT</text>
+      <text x="35" y="92" class="title navy">Current observation</text><text x="314" y="92" class="title" fill="#C78A3F">+</text><text x="355" y="92" class="title navy">candidate changes</text><text x="641" y="92" class="title" fill="#C78A3F">+</text><text x="682" y="92" class="title navy">provenance</text><text x="874" y="92" class="title" fill="#C78A3F">+</text><text x="915" y="92" class="title navy">recovery state</text>
+      <rect x="1210" y="42" width="204" height="58" rx="18" fill="#F2EDF6"/><text x="1240" y="79" class="body" fill="#5D4B69">PPE linked receipt</text>
+    </g>
+  </g>
+</svg>

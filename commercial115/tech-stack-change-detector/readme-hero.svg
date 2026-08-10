@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Website Tech Stack Change Detector</title>
+  <desc id="desc">A buyer-supplied baseline is compared with current public-page evidence to produce candidate changes, confidence, gaps, and a review action.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1020"/><stop offset="0.55" stop-color="#17162B"/><stop offset="1" stop-color="#251226"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FFB15B"/><stop offset="1" stop-color="#FF5D8F"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity="0.34"/></filter>
+    <style>
+      .sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}.muted{fill:#AEB5CC}.white{fill:#F7F8FC}.label{font-size:22px;font-weight:750;letter-spacing:2px}.small{font-size:20px}.body{font-size:24px}.cardTitle{font-size:27px;font-weight:760}.chip{font-size:20px;font-weight:700}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    </style>
+  </defs>
+  <rect width="1600" height="900" rx="42" fill="url(#bg)"/>
+  <circle cx="1430" cy="90" r="250" fill="#FF5D8F" opacity="0.08"/><circle cx="80" cy="830" r="290" fill="#FFB15B" opacity="0.06"/>
+  <g class="sans">
+    <g transform="translate(86 66)"><rect width="245" height="46" rx="23" fill="#FFB15B" opacity="0.14"/><circle cx="27" cy="23" r="8" fill="#FFB15B"/><text x="48" y="31" class="label" fill="#FFD6A3">CHANGE SIGNAL</text></g>
+    <text x="86" y="182" class="white" font-size="62" font-weight="820">Turn stack diffs into</text>
+    <text x="86" y="250" font-size="62" font-weight="820" fill="url(#accent)">review-ready evidence</text>
+    <text x="88" y="298" class="muted" font-size="25">Compare your baseline with one fresh public-page observation — without pretending absence proves removal.</text>
+
+    <g filter="url(#shadow)">
+      <rect x="86" y="354" width="386" height="340" rx="28" fill="#141B31" stroke="#38415C" stroke-width="2"/>
+      <text x="122" y="405" class="label" fill="#AEB5CC">01 · BUYER BASELINE</text>
+      <text x="122" y="453" class="cardTitle white">wordpress.org</text>
+      <rect x="122" y="490" width="150" height="44" rx="22" fill="#2B2440"/><text x="145" y="519" class="chip" fill="#E8D9FF">WordPress</text>
+      <rect x="122" y="550" width="112" height="44" rx="22" fill="#2B2440"/><text x="147" y="579" class="chip" fill="#E8D9FF">jQuery</text>
+      <line x1="122" y1="612" x2="435" y2="612" stroke="#38415C"/>
+      <text x="122" y="648" class="small muted">Supplied by you</text><text x="122" y="676" class="small" fill="#FFCE8D">Not independently verified</text>
+
+      <rect x="520" y="354" width="430" height="340" rx="28" fill="#141B31" stroke="#38415C" stroke-width="2"/>
+      <text x="556" y="405" class="label" fill="#AEB5CC">02 · CURRENT EVIDENCE</text>
+      <text x="556" y="453" class="cardTitle white">4 signatures observed</text>
+      <g transform="translate(556 486)">
+        <rect width="340" height="50" rx="14" fill="#19283A"/><circle cx="27" cy="25" r="8" fill="#55D6BE"/><text x="48" y="32" class="body white">WordPress</text><text x="223" y="31" class="small muted">site HTML</text>
+        <rect y="62" width="340" height="50" rx="14" fill="#19283A"/><circle cx="27" cy="87" r="8" fill="#55D6BE"/><text x="48" y="94" class="body white">Nginx</text><text x="223" y="93" class="small muted">header name</text>
+        <rect y="124" width="340" height="50" rx="14" fill="#19283A"/><circle cx="27" cy="149" r="8" fill="#55D6BE"/><text x="48" y="156" class="body white">Google Fonts</text><text x="223" y="155" class="small muted">public HTML</text>
+      </g>
+      <text x="556" y="674" class="small muted">Initial HTML + header names · no raw values</text>
+
+      <rect x="998" y="330" width="516" height="388" rx="30" fill="#F8F6F2"/>
+      <rect x="1034" y="366" width="276" height="44" rx="22" fill="#FFE5D1"/><text x="1055" y="395" class="chip" fill="#A9421A">CANDIDATE CHANGE</text>
+      <text x="1034" y="455" class="cardTitle" fill="#17162B">Observed additions</text>
+      <text x="1034" y="492" class="body" fill="#167E6A">+ Google Tag Manager · + Nginx</text>
+      <text x="1034" y="545" class="cardTitle" fill="#17162B">Not observed now</text>
+      <text x="1034" y="582" class="body" fill="#B94A6B">jQuery · verify before acting</text>
+      <line x1="1034" y1="615" x2="1478" y2="615" stroke="#D9D4CB"/>
+      <text x="1034" y="653" class="small" fill="#555262">Confidence 60 · medium</text>
+      <rect x="1308" y="630" width="170" height="44" rx="22" fill="#241B2B"/><text x="1333" y="659" class="chip white">REVIEW FIRST</text>
+      <text x="1034" y="696" class="small" fill="#77717F">safeToAutomate = false</text>
+    </g>
+
+    <path d="M480 524 C494 524 502 524 512 524" stroke="url(#accent)" stroke-width="7" stroke-linecap="round"/><path d="M501 512 L516 524 L501 536" fill="none" stroke="#FF7C82" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M958 524 C972 524 980 524 990 524" stroke="url(#accent)" stroke-width="7" stroke-linecap="round"/><path d="M979 512 L994 524 L979 536" fill="none" stroke="#FF7C82" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g transform="translate(86 773)"><rect width="1428" height="70" rx="22" fill="#11172A" stroke="#343D58"/><text x="34" y="44" class="body" fill="#F7F8FC">One URL in → provenance, stable IDs, confidence, gaps, and the next verification action out</text><text x="1210" y="44" class="label" fill="#FFB15B">1–100 SITES</text></g>
+  </g>
+</svg>
