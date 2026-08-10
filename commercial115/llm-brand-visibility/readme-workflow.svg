@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#120d24"/>
+  <path d="M0 175 C430 72 910 238 1600 88" fill="none" stroke="#35214f" stroke-width="4"/>
+  <text x="82" y="102" fill="#fff8ff" font-family="Arial" font-size="50" font-weight="700">From a buyer prompt to a defensible brand-visibility decision</text>
+  <text x="82" y="151" fill="#cbbbd9" font-family="Arial" font-size="24">BYOK cost control · grounded retrieval · labeled model evidence · conservative action</text>
+  <line x1="180" y1="265" x2="1420" y2="265" stroke="#61497a" stroke-width="6"/>
+  <g font-family="Arial">
+    <circle cx="180" cy="265" r="17" fill="#a77bff"/><circle cx="590" cy="265" r="17" fill="#38d7cf"/>
+    <circle cx="1010" cy="265" r="17" fill="#ffca67"/><circle cx="1420" cy="265" r="17" fill="#ff8c77"/>
+    <rect x="82" y="308" width="300" height="310" rx="26" fill="#1c1837" stroke="#a77bff" stroke-width="3"/>
+    <text x="112" y="354" fill="#bd9aff" font-size="20" font-weight="700">1 · VALIDATE + RESERVE</text>
+    <text x="112" y="406" fill="#e9def5" font-size="20">Exact strings only</text><text x="112" y="450" fill="#e9def5" font-size="20">Max 20 × 3 probes</text>
+    <text x="112" y="494" fill="#e9def5" font-size="20">Buyer key only</text><text x="112" y="552" fill="#a493b5" font-size="16">Reserve Apify budget first</text>
+    <text x="112" y="581" fill="#a493b5" font-size="16">No silent provider fallback</text>
+    <rect x="452" y="308" width="300" height="310" rx="26" fill="#102d38" stroke="#38d7cf" stroke-width="3"/>
+    <text x="482" y="354" fill="#53e3dc" font-size="20" font-weight="700">2 · REQUEST GROUNDING</text>
+    <text x="482" y="406" fill="#dcf8f5" font-size="20">Sonar native search</text><text x="482" y="450" fill="#dcf8f5" font-size="20">OpenRouter web tool</text>
+    <text x="482" y="494" fill="#dcf8f5" font-size="20">Bounded response body</text><text x="482" y="552" fill="#8cbfbc" font-size="16">Titles + normalized URLs</text>
+    <text x="482" y="581" fill="#8cbfbc" font-size="16">Provider cost exposed to BYOK user</text>
+    <rect x="822" y="308" width="376" height="310" rx="26" fill="#352a16" stroke="#ffca67" stroke-width="3"/>
+    <text x="852" y="354" fill="#ffd47d" font-size="20" font-weight="700">3 · LABEL THE EVIDENCE</text>
+    <text x="852" y="406" fill="#fff1cf" font-size="20">Whole-token brand match</text><text x="852" y="450" fill="#fff1cf" font-size="20">Model-authored order disclosed</text>
+    <text x="852" y="494" fill="#fff1cf" font-size="20">Grounding observed / absent</text><text x="852" y="552" fill="#c7ae79" font-size="16">Position is not independent telemetry</text>
+    <text x="852" y="581" fill="#c7ae79" font-size="16">Legacy competitor field preserved</text>
+    <rect x="1268" y="308" width="250" height="310" rx="26" fill="#3b211d" stroke="#ff8c77" stroke-width="3"/>
+    <text x="1298" y="354" fill="#ff9d8c" font-size="20" font-weight="700">4 · ROUTE</text>
+    <text x="1298" y="406" fill="#ffe5e0" font-size="19">Review own mention</text><text x="1298" y="450" fill="#ffe5e0" font-size="19">Inspect competitor gap</text>
+    <text x="1298" y="494" fill="#ffe5e0" font-size="19">Verify weak grounding</text><text x="1298" y="552" fill="#d2a39b" font-size="16">No auto-publish</text>
+    <text x="1298" y="581" fill="#d2a39b" font-size="16">No auto-outreach</text>
+  </g>
+  <rect x="82" y="694" width="1436" height="110" rx="22" fill="#211737" stroke="#6f4c96" stroke-width="3"/>
+  <text x="116" y="738" fill="#fff5ff" font-family="Arial" font-size="23" font-weight="700">Keep the answer, extracted names, citation provenance, confidence reasons and gaps in the same review record.</text>
+  <text x="116" y="775" fill="#c5b3d3" font-family="Arial" font-size="18">Repeat observations over time before claiming a durable visibility trend or changing strategy.</text>
+  <text x="1185" y="852" fill="#7e6b91" font-family="Arial" font-size="15">LLM Brand Visibility · ZININ · APIFY</text>
+</svg>

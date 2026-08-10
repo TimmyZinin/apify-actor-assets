@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#120d24"/>
+  <circle cx="1485" cy="80" r="280" fill="#2a1747"/><circle cx="70" cy="865" r="230" fill="#172747"/>
+  <text x="82" y="104" fill="#fff8ff" font-family="Arial" font-size="54" font-weight="700">LLM Brand Visibility Tracker</text>
+  <text x="82" y="158" fill="#cfbfdf" font-family="Arial" font-size="25">See whether AI answers name your brand, which alternatives appear, and what sources ground the result.</text>
+  <g font-family="Arial">
+    <rect x="82" y="235" width="420" height="410" rx="28" fill="#1c1837" stroke="#a77bff" stroke-width="3"/>
+    <text x="118" y="286" fill="#bd9aff" font-size="21" font-weight="700">YOUR MARKET QUESTION</text>
+    <rect x="118" y="324" width="348" height="70" rx="13" fill="#29214b"/>
+    <text x="140" y="354" fill="#f5edff" font-size="18">Brand: Notion</text><text x="140" y="381" fill="#cdbce5" font-size="17">“best note-taking app”</text>
+    <circle cx="133" cy="448" r="7" fill="#bd9aff"/><text x="154" y="456" fill="#e6daf4" font-size="20">Up to 20 exact queries</text>
+    <circle cx="133" cy="501" r="7" fill="#bd9aff"/><text x="154" y="509" fill="#e6daf4" font-size="20">1–3 models per run</text>
+    <circle cx="133" cy="554" r="7" fill="#bd9aff"/><text x="154" y="562" fill="#e6daf4" font-size="20">Your OpenRouter key</text>
+    <text x="118" y="613" fill="#9b8aac" font-size="17">You control provider spend and access</text>
+    <path d="M522 444 H592" stroke="#765f8e" stroke-width="5"/><path d="M592 444 l-18 -12 v24z" fill="#765f8e"/>
+    <rect x="612" y="235" width="430" height="410" rx="28" fill="#102d38" stroke="#38d7cf" stroke-width="3"/>
+    <text x="648" y="286" fill="#53e3dc" font-size="21" font-weight="700">OBSERVED AI ANSWER</text>
+    <rect x="648" y="324" width="358" height="84" rx="13" fill="#17414a"/>
+    <text x="670" y="355" fill="#e6fffc" font-size="18">Current answer + brand list</text>
+    <text x="670" y="383" fill="#9edbd7" font-size="17">Structured citations when present</text>
+    <text x="648" y="467" fill="#daf6f3" font-size="20">Mention observed: yes / no</text>
+    <text x="648" y="515" fill="#daf6f3" font-size="20">Model-reported position</text>
+    <text x="648" y="563" fill="#daf6f3" font-size="20">Alternatives + cited domains</text>
+    <text x="648" y="613" fill="#89bdb9" font-size="17">Grounding observed — never assumed</text>
+    <path d="M1062 444 H1132" stroke="#765f8e" stroke-width="5"/><path d="M1132 444 l-18 -12 v24z" fill="#765f8e"/>
+    <rect x="1152" y="235" width="366" height="410" rx="28" fill="#372019" stroke="#ff9a61" stroke-width="3"/>
+    <text x="1188" y="286" fill="#ffad7c" font-size="21" font-weight="700">HUMAN REVIEW QUEUE</text>
+    <circle cx="1204" cy="354" r="7" fill="#ffad7c"/><text x="1226" y="362" fill="#ffe9dc" font-size="20">Coverage + confidence</text>
+    <circle cx="1204" cy="409" r="7" fill="#ffad7c"/><text x="1226" y="417" fill="#ffe9dc" font-size="20">Evidence + data gaps</text>
+    <circle cx="1204" cy="464" r="7" fill="#ffad7c"/><text x="1226" y="472" fill="#ffe9dc" font-size="20">Competitor-gap action</text>
+    <circle cx="1204" cy="519" r="7" fill="#ffad7c"/><text x="1226" y="527" fill="#ffe9dc" font-size="20">Failure + retry routing</text>
+    <text x="1188" y="602" fill="#d6a58c" font-size="18">safeToAutomate = false</text>
+  </g>
+  <rect x="82" y="704" width="1436" height="92" rx="20" fill="#211737" stroke="#4b3768" stroke-width="2"/>
+  <text x="116" y="747" fill="#fff5ff" font-family="Arial" font-size="23" font-weight="700">For GEO/SEO teams · content leaders · agencies · founders · product marketers</text>
+  <text x="116" y="779" fill="#bcaacb" font-family="Arial" font-size="18">One answer is an observation — not stable rank, sentiment, endorsement, traffic or conversion.</text>
+  <text x="1285" y="850" fill="#7e6b91" font-family="Arial" font-size="15">ZININ DATA PRODUCTS · APIFY</text>
+</svg>
