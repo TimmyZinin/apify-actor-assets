@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Website Tech Stack Detector workflow and safety boundaries</title>
+  <desc id="desc">A five-stage horizontal workflow: strict URL input, guarded fetch, bounded observation, evidence labeling, and human review.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7fbff"/><stop offset="1" stop-color="#e8f1fb"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#10a89d"/><stop offset="1" stop-color="#357be0"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#27435f" flood-opacity=".16"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="92" y="94" fill="#38707d" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="800" letter-spacing="3">BOUNDED, EXPLAINABLE WORKFLOW</text>
+  <text x="92" y="158" fill="#10243d" font-family="Inter,Arial,sans-serif" font-size="48" font-weight="850">From URL list to a usable account signal</text>
+  <text x="92" y="208" fill="#60738b" font-family="Inter,Arial,sans-serif" font-size="24">Every row carries the observation boundary and the reason it still needs review.</text>
+
+  <path d="M210 438H1390" stroke="#c7d8e9" stroke-width="8" stroke-linecap="round"/><path d="M210 438H1390" stroke="url(#line)" stroke-width="4" stroke-dasharray="10 14" stroke-linecap="round"/>
+
+  <g filter="url(#shadow)" font-family="Inter,Arial,sans-serif">
+    <rect x="76" y="300" width="270" height="294" rx="28" fill="#fff" stroke="#d5e2ef"/>
+    <circle cx="126" cy="352" r="24" fill="#ddf8f4"/><text x="126" y="361" text-anchor="middle" fill="#087c74" font-size="24" font-weight="800">1</text>
+    <text x="110" y="408" fill="#10243d" font-size="24" font-weight="800">Strict input</text>
+    <text x="110" y="448" fill="#60738b" font-size="18">1–100 public URLs</text><text x="110" y="478" fill="#60738b" font-size="18">HTTP(S) only</text><text x="110" y="508" fill="#60738b" font-size="18">No credentials</text><text x="110" y="538" fill="#60738b" font-size="18">Exact dedupe</text>
+
+    <rect x="370" y="300" width="270" height="294" rx="28" fill="#fff" stroke="#d5e2ef"/>
+    <circle cx="420" cy="352" r="24" fill="#e2f0ff"/><text x="420" y="361" text-anchor="middle" fill="#2366b5" font-size="24" font-weight="800">2</text>
+    <text x="404" y="408" fill="#10243d" font-size="24" font-weight="800">Guarded fetch</text>
+    <text x="404" y="448" fill="#60738b" font-size="18">SSRF + DNS pinning</text><text x="404" y="478" fill="#60738b" font-size="18">Redirect re-checks</text><text x="404" y="508" fill="#60738b" font-size="18">robots.txt policy</text><text x="404" y="538" fill="#60738b" font-size="18">20 s timeout</text>
+
+    <rect x="664" y="300" width="270" height="294" rx="28" fill="#fff" stroke="#d5e2ef"/>
+    <circle cx="714" cy="352" r="24" fill="#eee8ff"/><text x="714" y="361" text-anchor="middle" fill="#684eb0" font-size="24" font-weight="800">3</text>
+    <text x="698" y="408" fill="#10243d" font-size="24" font-weight="800">Bounded read</text>
+    <text x="698" y="448" fill="#60738b" font-size="18">Initial HTML</text><text x="698" y="478" fill="#60738b" font-size="18">Public headers</text><text x="698" y="508" fill="#60738b" font-size="18">600 KB cap</text><text x="698" y="538" fill="#60738b" font-size="18">No browser or login</text>
+
+    <rect x="958" y="300" width="270" height="294" rx="28" fill="#fff" stroke="#d5e2ef"/>
+    <circle cx="1008" cy="352" r="24" fill="#fff0dd"/><text x="1008" y="361" text-anchor="middle" fill="#a06011" font-size="24" font-weight="800">4</text>
+    <text x="992" y="408" fill="#10243d" font-size="24" font-weight="800">Evidence row</text>
+    <text x="992" y="448" fill="#60738b" font-size="18">Signature provenance</text><text x="992" y="478" fill="#60738b" font-size="18">Freshness + stable IDs</text><text x="992" y="508" fill="#60738b" font-size="18">Confidence + gaps</text><text x="992" y="538" fill="#60738b" font-size="18">Failure + retry class</text>
+
+    <rect x="1252" y="300" width="270" height="294" rx="28" fill="#10243d" stroke="#10243d"/>
+    <circle cx="1302" cy="352" r="24" fill="#2c4867"/><text x="1302" y="361" text-anchor="middle" fill="#74dcd4" font-size="24" font-weight="800">5</text>
+    <text x="1286" y="408" fill="#fff" font-size="24" font-weight="800">Human review</text>
+    <text x="1286" y="448" fill="#b7c9dc" font-size="18">Segment accounts</text><text x="1286" y="478" fill="#b7c9dc" font-size="18">Prepare discovery</text><text x="1286" y="508" fill="#b7c9dc" font-size="18">Validate before action</text><text x="1286" y="550" fill="#58d6cc" font-size="17" font-weight="800">SAFE TO AUTOMATE: NO</text>
+  </g>
+
+  <g font-family="Inter,Arial,sans-serif">
+    <rect x="134" y="674" width="1332" height="126" rx="24" fill="#10243d"/>
+    <text x="176" y="722" fill="#72ddd4" font-size="20" font-weight="800">WHAT THE SIGNAL MEANS</text>
+    <text x="176" y="762" fill="#edf5ff" font-size="21">“A catalog fingerprint was observed in this response.”</text>
+    <line x1="780" y1="702" x2="780" y2="774" stroke="#36516e"/>
+    <text x="824" y="722" fill="#ffba95" font-size="20" font-weight="800">WHAT IT DOES NOT MEAN</text>
+    <text x="824" y="762" fill="#edf5ff" font-size="21">Contract, budget, intent, complete stack, or permission to contact.</text>
+  </g>
+  <text x="800" y="854" text-anchor="middle" fill="#60738b" font-family="Inter,Arial,sans-serif" font-size="20">Failures are explicit and unbilled; successful delivered rows carry a linked pay-per-event receipt.</text>
+</svg>
