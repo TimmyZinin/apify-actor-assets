@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-  <title>EU Accessibility and Privacy Signal Scanner</title>
+  <title>EU Accessibility &amp; Privacy Signal Scanner</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071B22"/><stop offset="1" stop-color="#102135"/></linearGradient>
     <linearGradient id="score" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#31D8B5"/><stop offset="1" stop-color="#FFB45B"/></linearGradient>
