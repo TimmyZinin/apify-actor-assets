@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>Accessibility and privacy evidence to action workflow</title>
+  <defs><linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071B22"/><stop offset="1" stop-color="#102135"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <path d="M0 170 C300 70 510 250 790 140 C1070 30 1300 175 1600 60" fill="none" stroke="#31D8B5" stroke-width="3" opacity="0.13"/>
+  <text x="82" y="96" font-family="Inter,Arial,sans-serif" font-size="48" font-weight="760" fill="#FFFFFF">From observable page signals to a safer review queue</text>
+  <text x="84" y="148" font-family="Inter,Arial,sans-serif" font-size="25" fill="#B6CED6">One bounded fetch · two distinct risk lenses · no automated legal conclusion</text>
+
+  <line x1="210" y1="246" x2="1390" y2="246" stroke="#3B5F68" stroke-width="6"/>
+  <circle cx="210" cy="246" r="17" fill="#57B8FF"/><circle cx="603" cy="246" r="17" fill="#31D8B5"/><circle cx="996" cy="246" r="17" fill="#FFB45B"/><circle cx="1390" cy="246" r="17" fill="#D783FF"/>
+
+  <rect x="82" y="288" width="285" height="340" rx="24" fill="#122C36" stroke="#57B8FF" stroke-width="2"/>
+  <text x="110" y="340" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700" fill="#57B8FF">1 · FETCH RESPONSIBLY</text>
+  <text x="110" y="397" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E4F2F5">robots.txt first</text>
+  <text x="110" y="443" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E4F2F5">same-host redirects</text>
+  <text x="110" y="489" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E4F2F5">bounded public HTML</text>
+  <text x="110" y="551" font-family="Inter,Arial,sans-serif" font-size="18" fill="#91ABB3">No discovered-site crawl</text>
+  <text x="110" y="580" font-family="Inter,Arial,sans-serif" font-size="18" fill="#91ABB3">No private page access</text>
+
+  <rect x="475" y="288" width="285" height="340" rx="24" fill="#122C36" stroke="#31D8B5" stroke-width="2"/>
+  <text x="503" y="340" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700" fill="#31D8B5">2 · ACCESSIBILITY</text>
+  <text x="503" y="397" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E4F2F5">image alt coverage</text>
+  <text x="503" y="443" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E4F2F5">control names</text>
+  <text x="503" y="489" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E4F2F5">language &amp; semantics</text>
+  <text x="503" y="551" font-family="Inter,Arial,sans-serif" font-size="18" fill="#91ABB3">Observable HTML signals</text>
+  <text x="503" y="580" font-family="Inter,Arial,sans-serif" font-size="18" fill="#91ABB3">Not a WCAG audit</text>
+
+  <rect x="868" y="288" width="285" height="340" rx="24" fill="#122C36" stroke="#FFB45B" stroke-width="2"/>
+  <text x="896" y="340" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700" fill="#FFB45B">3 · PRIVACY</text>
+  <text x="896" y="397" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E4F2F5">notice links</text>
+  <text x="896" y="443" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E4F2F5">tracker timing</text>
+  <text x="896" y="489" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E4F2F5">forms &amp; choices</text>
+  <text x="896" y="551" font-family="Inter,Arial,sans-serif" font-size="18" fill="#91ABB3">Evidence is redacted</text>
+  <text x="896" y="580" font-family="Inter,Arial,sans-serif" font-size="18" fill="#91ABB3">Not a GDPR verdict</text>
+
+  <rect x="1261" y="288" width="257" height="340" rx="24" fill="#122C36" stroke="#D783FF" stroke-width="2"/>
+  <text x="1289" y="340" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700" fill="#D783FF">4 · ROUTE ACTION</text>
+  <text x="1289" y="397" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E4F2F5">score + confidence</text>
+  <text x="1289" y="443" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E4F2F5">evidence + gaps</text>
+  <text x="1289" y="489" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E4F2F5">review priority</text>
+  <text x="1289" y="551" font-family="Inter,Arial,sans-serif" font-size="18" fill="#91ABB3">safeToAutomate=false</text>
+  <text x="1289" y="580" font-family="Inter,Arial,sans-serif" font-size="18" fill="#91ABB3">Human validation first</text>
+
+  <rect x="82" y="688" width="1436" height="96" rx="22" fill="#17333C" stroke="#31D8B5" stroke-width="2"/>
+  <text x="118" y="731" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="600" fill="#EAF8FA">Use the row to prioritize inspection — an observed gap is not legal non-compliance,</text>
+  <text x="118" y="765" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="600" fill="#EAF8FA">buyer intent, consent to contact, or proof of inaccessible real-world experience.</text>
+  <text x="1510" y="855" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="20" fill="#79959E">ZININ · APIFY</text>
+</svg>

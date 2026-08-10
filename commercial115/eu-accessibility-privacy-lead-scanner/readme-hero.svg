@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>EU Accessibility and Privacy Signal Scanner</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071B22"/><stop offset="1" stop-color="#102135"/></linearGradient>
+    <linearGradient id="score" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#31D8B5"/><stop offset="1" stop-color="#FFB45B"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1475" cy="90" r="270" fill="#31D8B5" opacity="0.08"/>
+  <circle cx="80" cy="860" r="230" fill="#FFB45B" opacity="0.08"/>
+
+  <text x="82" y="98" font-family="Inter,Arial,sans-serif" font-size="51" font-weight="760" fill="#FFFFFF">EU Accessibility &amp; Privacy Signal Scanner</text>
+  <text x="84" y="172" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="500" fill="#B6CED6">Turn buyer-supplied public pages into separate gap scores, attributable</text>
+  <text x="84" y="208" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="500" fill="#B6CED6">evidence and a conservative human-review queue.</text>
+
+  <rect x="82" y="296" width="420" height="412" rx="28" fill="#122C36" stroke="#57B8FF" stroke-width="2"/>
+  <text x="114" y="350" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#57B8FF">BUYER-SUPPLIED PAGE</text>
+  <rect x="114" y="392" width="356" height="58" rx="14" fill="#0A202A" stroke="#315C70"/>
+  <text x="138" y="429" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E7F7FA">https://approved-domain.example</text>
+  <circle cx="124" cy="496" r="7" fill="#57B8FF"/><text x="146" y="505" font-family="Inter,Arial,sans-serif" font-size="24" fill="#DCECF0">Up to 100 approved URLs</text>
+  <circle cx="124" cy="562" r="7" fill="#57B8FF"/><text x="146" y="571" font-family="Inter,Arial,sans-serif" font-size="24" fill="#DCECF0">Fresh fetch or disclosed cache</text>
+  <circle cx="124" cy="628" r="7" fill="#57B8FF"/><text x="146" y="637" font-family="Inter,Arial,sans-serif" font-size="24" fill="#DCECF0">Compact or evidence detail</text>
+  <path d="M520 502 H579" stroke="#557B88" stroke-width="5"/><path d="M579 502 l-18 -12 v24z" fill="#557B88"/>
+
+  <rect x="594" y="296" width="430" height="412" rx="28" fill="#122C36" stroke="url(#score)" stroke-width="3"/>
+  <text x="626" y="350" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#31D8B5">SEPARATE, EXPLAINABLE SCORES</text>
+  <text x="626" y="405" font-family="Inter,Arial,sans-serif" font-size="24" fill="#DCECF0">Accessibility gap</text><rect x="626" y="428" width="330" height="18" rx="9" fill="#263D45"/><rect x="626" y="428" width="205" height="18" rx="9" fill="#31D8B5"/>
+  <text x="626" y="500" font-family="Inter,Arial,sans-serif" font-size="24" fill="#DCECF0">Privacy gap</text><rect x="626" y="523" width="330" height="18" rx="9" fill="#263D45"/><rect x="626" y="523" width="145" height="18" rx="9" fill="#FFB45B"/>
+  <text x="626" y="595" font-family="Inter,Arial,sans-serif" font-size="24" fill="#DCECF0">Combined exposure</text><rect x="626" y="618" width="330" height="18" rx="9" fill="#263D45"/><rect x="626" y="618" width="176" height="18" rx="9" fill="#D783FF"/>
+  <text x="626" y="672" font-family="Inter,Arial,sans-serif" font-size="19" fill="#91ABB3">Score ≠ compliance verdict</text>
+  <path d="M1042 502 H1101" stroke="#557B88" stroke-width="5"/><path d="M1101 502 l-18 -12 v24z" fill="#557B88"/>
+
+  <rect x="1116" y="296" width="402" height="412" rx="28" fill="#122C36" stroke="#D783FF" stroke-width="2"/>
+  <text x="1148" y="350" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#D783FF">REVIEW-READY ROW</text>
+  <circle cx="1158" cy="409" r="7" fill="#D783FF"/><text x="1180" y="418" font-family="Inter,Arial,sans-serif" font-size="24" fill="#DCECF0">Lead tier and review flag</text>
+  <circle cx="1158" cy="481" r="7" fill="#D783FF"/><text x="1180" y="490" font-family="Inter,Arial,sans-serif" font-size="24" fill="#DCECF0">Selectors, hashes and source</text><text x="1180" y="520" font-family="Inter,Arial,sans-serif" font-size="24" fill="#DCECF0">coverage</text>
+  <circle cx="1158" cy="571" r="7" fill="#D783FF"/><text x="1180" y="580" font-family="Inter,Arial,sans-serif" font-size="24" fill="#DCECF0">Confidence and explicit gaps</text>
+  <circle cx="1158" cy="643" r="7" fill="#D783FF"/><text x="1180" y="652" font-family="Inter,Arial,sans-serif" font-size="24" fill="#DCECF0">Manual next action</text>
+
+  <text x="84" y="790" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#9CB8C0">Agencies · SMB website owners · product and privacy teams</text>
+  <text x="1510" y="855" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="20" fill="#79959E">ZININ DATA PRODUCTS · APIFY</text>
+</svg>
