@@ -3,7 +3,7 @@
   <circle cx="1510" cy="-10" r="280" fill="#18345a" opacity=".6"/>
   <text x="80" y="98" fill="#f7fbff" font-family="Verdana" font-size="51" font-weight="700">Truth-preserving domain audit workflow</text>
   <text x="80" y="152" fill="#abc4df" font-family="Verdana" font-size="24">A source outage is not a client defect. Known evidence and unknown evidence take different paths.</text>
-  <text x="1515" y="190" text-anchor="end" fill="#75a6cf" font-family="Verdana" font-size="18" font-weight="700">DOMAIN HEALTH CHECKER</text>
+  <text x="1515" y="190" text-anchor="end" fill="#75a6cf" font-family="Verdana" font-size="18" font-weight="700">Domain Health Checker</text>
 
   <rect x="80" y="225" width="280" height="150" rx="24" fill="#102a46" stroke="#5aa7ff" stroke-width="3"/>
   <text x="220" y="276" text-anchor="middle" fill="#79bcff" font-family="Verdana" font-size="20" font-weight="700">1 · NORMALIZE</text>
