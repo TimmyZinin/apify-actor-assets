@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>Job Postings Aggregator — ATS Evidence</title>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071225"/><stop offset="1" stop-color="#101B34"/></linearGradient><linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#62A4FF"/><stop offset="1" stop-color="#22D3A7"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><circle cx="1460" cy="80" r="250" fill="#684BFF" opacity=".10"/><circle cx="90" cy="830" r="240" fill="#21D4A5" opacity=".07"/>
+  <rect x="76" y="68" width="188" height="42" rx="21" fill="#16294A" stroke="#4679C6"/><text x="170" y="96" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#9DC4FF">PUBLIC ATS DATA</text>
+  <text x="76" y="185" font-family="Inter,Arial,sans-serif" font-size="62" font-weight="760" fill="#FFFFFF">Every current role.</text>
+  <text x="76" y="255" font-family="Inter,Arial,sans-serif" font-size="62" font-weight="760" fill="#FFFFFF">Evidence attached.</text>
+  <text x="78" y="325" font-family="Inter,Arial,sans-serif" font-size="28" fill="#B2C5E5">Turn ATS tokens or company domains into a review-ready role dataset</text>
+  <text x="78" y="363" font-family="Inter,Arial,sans-serif" font-size="28" fill="#B2C5E5">for recruiters, agencies, sales research and market mapping.</text>
+  <rect x="78" y="438" width="435" height="264" rx="28" fill="#12213C" stroke="#3C70B8" stroke-width="2"/>
+  <text x="112" y="490" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700" fill="#72ADFF">YOU PROVIDE</text>
+  <circle cx="120" cy="540" r="7" fill="#72ADFF"/><text x="144" y="549" font-family="Inter,Arial,sans-serif" font-size="25" fill="#E2ECFF">greenhouse:company</text>
+  <circle cx="120" cy="594" r="7" fill="#72ADFF"/><text x="144" y="603" font-family="Inter,Arial,sans-serif" font-size="25" fill="#E2ECFF">lever:company · ashby:company</text>
+  <circle cx="120" cy="648" r="7" fill="#72ADFF"/><text x="144" y="657" font-family="Inter,Arial,sans-serif" font-size="25" fill="#E2ECFF">or a company domain</text>
+  <path d="M540 570 H660" stroke="url(#line)" stroke-width="7" stroke-linecap="round"/><path d="M660 570 l-24 -16 v32z" fill="#22D3A7"/>
+  <rect x="690" y="408" width="832" height="324" rx="30" fill="#12213C" stroke="#2B876F" stroke-width="2"/>
+  <text x="730" y="465" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700" fill="#45E1B5">YOU RECEIVE — ONE ROW PER UNIQUE ROLE</text>
+  <rect x="730" y="500" width="220" height="82" rx="16" fill="#182D4E"/><text x="750" y="532" font-family="Inter,Arial,sans-serif" font-size="18" fill="#91A9CD">ROLE</text><text x="750" y="561" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Title · location</text>
+  <rect x="970" y="500" width="245" height="82" rx="16" fill="#182D4E"/><text x="990" y="532" font-family="Inter,Arial,sans-serif" font-size="18" fill="#91A9CD">PROVENANCE</text><text x="990" y="561" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Source evidence</text>
+  <rect x="1235" y="500" width="245" height="82" rx="16" fill="#182D4E"/><text x="1255" y="532" font-family="Inter,Arial,sans-serif" font-size="18" fill="#91A9CD">QUALITY</text><text x="1255" y="561" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Confidence · gaps</text>
+  <rect x="730" y="602" width="220" height="82" rx="16" fill="#182D4E"/><text x="750" y="634" font-family="Inter,Arial,sans-serif" font-size="18" fill="#91A9CD">FRESHNESS</text><text x="750" y="663" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Observed · posted</text>
+  <rect x="970" y="602" width="245" height="82" rx="16" fill="#182D4E"/><text x="990" y="634" font-family="Inter,Arial,sans-serif" font-size="18" fill="#91A9CD">CONTROL</text><text x="990" y="663" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Stable IDs · dedupe</text>
+  <rect x="1235" y="602" width="245" height="82" rx="16" fill="#183A39"/><text x="1255" y="634" font-family="Inter,Arial,sans-serif" font-size="18" fill="#73E7C5">NEXT STEP</text><text x="1255" y="663" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Manual review action</text>
+  <text x="78" y="810" font-family="Inter,Arial,sans-serif" font-size="24" fill="#8FA6CA">A current posting is evidence of a listed role — not proof of growth, budget or buying intent.</text>
+  <text x="1520" y="856" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="20" fill="#7186A8">ZININ DATA PRODUCTS · APIFY</text>
+</svg>
