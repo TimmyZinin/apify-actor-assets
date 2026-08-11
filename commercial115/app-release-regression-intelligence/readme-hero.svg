@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>App Release Regression Intelligence</title>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071226"/><stop offset="1" stop-color="#0B1830"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1490" cy="60" r="260" fill="#2457FF" opacity="0.11"/>
+  <circle cx="60" cy="850" r="220" fill="#23D5AB" opacity="0.08"/>
+
+  <text x="82" y="100" font-family="Inter,Arial,sans-serif" font-size="54" font-weight="760" fill="#FFFFFF">App Release Regression</text><text x="82" y="167.5" font-family="Inter,Arial,sans-serif" font-size="54" font-weight="760" fill="#FFFFFF">Intelligence</text>
+  <text x="84" y="205" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="500" fill="#AFC3E8">Turn buyer-supplied pre/post-release app reviews into a bounded</text><text x="84" y="242.5" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="500" fill="#AFC3E8">regression evidence report without claiming causality.</text>
+
+  <rect x="82" y="330" width="420" height="390" rx="28" fill="#12213D" stroke="#62A4FF" stroke-width="2"/>
+  <text x="114" y="384" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#62A4FF">BUYER INPUT</text>
+  <circle cx="124" cy="435" r="7" fill="#62A4FF"/><text x="146" y="444" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Apple or Google review rows</text><circle cx="124" cy="507" r="7" fill="#62A4FF"/><text x="146" y="516" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Declared release time and</text><text x="146" y="547.25" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">version</text><circle cx="124" cy="579" r="7" fill="#62A4FF"/><text x="146" y="588" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Pre, post and confirmation</text><text x="146" y="619.25" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">windows</text>
+  <path d="M520 525 H585" stroke="#55739E" stroke-width="5"/><path d="M585 525 l-18 -12 v24z" fill="#55739E"/>
+
+  <rect x="600" y="330" width="420" height="390" rx="28" fill="#12213D" stroke="#A77BFF" stroke-width="2"/>
+  <text x="632" y="384" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#A77BFF">DECISION LAYER</text>
+  <circle cx="642" cy="435" r="7" fill="#A77BFF"/><text x="664" y="444" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Normalize comparable review</text><text x="664" y="475.25" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">windows</text><circle cx="642" cy="507" r="7" fill="#A77BFF"/><text x="664" y="516" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Measure rating and topic</text><text x="664" y="547.25" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">movement</text><circle cx="642" cy="579" r="7" fill="#A77BFF"/><text x="664" y="588" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Separate materiality from</text><text x="664" y="619.25" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">confidence</text>
+  <path d="M1038 525 H1103" stroke="#55739E" stroke-width="5"/><path d="M1103 525 l-18 -12 v24z" fill="#55739E"/>
+
+  <rect x="1118" y="330" width="400" height="390" rx="28" fill="#12213D" stroke="#23D5AB" stroke-width="2"/>
+  <text x="1150" y="384" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#23D5AB">BUYER OUTCOME</text>
+  <circle cx="1160" cy="435" r="7" fill="#23D5AB"/><text x="1182" y="444" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Rating and complaint-topic</text><text x="1182" y="475.25" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">shifts</text><circle cx="1160" cy="507" r="7" fill="#23D5AB"/><text x="1182" y="516" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Evidence, confidence and</text><text x="1182" y="547.25" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">causality gaps</text><circle cx="1160" cy="579" r="7" fill="#23D5AB"/><text x="1182" y="588" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Unsent product-review action</text>
+  <text x="84" y="790" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="500" fill="#8FA8CF">Mobile product, release, growth, support and app-review intelligence teams</text>
+
+  <text x="1510" y="855" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="20" fill="#7E93B5">ZININ DATA PRODUCTS · APIFY</text>
+</svg>
