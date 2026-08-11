@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071425"/><stop offset="1" stop-color="#10213c"/></linearGradient>
+    <linearGradient id="score" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#54d8b0"/><stop offset="1" stop-color="#68a8ff"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1460" cy="80" r="260" fill="#193b63" opacity=".55"/>
+  <circle cx="80" cy="870" r="260" fill="#0b4b4a" opacity=".35"/>
+  <text x="80" y="98" fill="#f7fbff" font-family="Verdana" font-size="52" font-weight="700">Domain Health Evidence for client conversations</text>
+  <text x="80" y="153" fill="#abc4df" font-family="Verdana" font-size="24">Turn public DNS and TLS observations into verified issues, confidence, gaps and next actions.</text>
+
+  <rect x="80" y="220" width="405" height="460" rx="28" fill="#102a46" stroke="#5aa7ff" stroke-width="3"/>
+  <text x="120" y="282" fill="#75b8ff" font-family="Verdana" font-size="21" font-weight="700">YOUR DOMAIN LIST</text>
+  <rect x="120" y="325" width="325" height="64" rx="14" fill="#0a1c31" stroke="#345f88"/>
+  <text x="145" y="366" fill="#eef7ff" font-family="Verdana" font-size="23">client-one.com</text>
+  <rect x="120" y="410" width="325" height="64" rx="14" fill="#0a1c31" stroke="#345f88"/>
+  <text x="145" y="451" fill="#eef7ff" font-family="Verdana" font-size="23">new-launch.io</text>
+  <rect x="120" y="495" width="325" height="64" rx="14" fill="#0a1c31" stroke="#345f88"/>
+  <text x="145" y="536" fill="#eef7ff" font-family="Verdana" font-size="23">portfolio-brand.co</text>
+  <text x="120" y="613" fill="#9db7d1" font-family="Verdana" font-size="20">Up to 100 · deduplicated · ordered</text>
+
+  <rect x="598" y="220" width="405" height="460" rx="28" fill="#182344" stroke="#a07bff" stroke-width="3"/>
+  <text x="638" y="282" fill="#b496ff" font-family="Verdana" font-size="21" font-weight="700">LIVE EVIDENCE</text>
+  <g font-family="Verdana" font-size="23" fill="#eef3ff">
+    <text x="638" y="353">✓ A / AAAA / NS</text>
+    <text x="638" y="414">✓ MX + Null MX</text>
+    <text x="638" y="475">✓ SPF + DMARC policy</text>
+    <text x="638" y="536">✓ TLS trust + expiry</text>
+    <text x="638" y="597">✓ Source state + timestamp</text>
+  </g>
+  <rect x="638" y="624" width="325" height="9" rx="4" fill="#2e385a"/>
+  <rect x="638" y="624" width="269" height="9" rx="4" fill="url(#score)"/>
+
+  <rect x="1115" y="220" width="405" height="460" rx="28" fill="#103742" stroke="#51d9b4" stroke-width="3"/>
+  <text x="1155" y="282" fill="#61e4c0" font-family="Verdana" font-size="21" font-weight="700">DECISION CARD</text>
+  <text x="1155" y="362" fill="#ffffff" font-family="Verdana" font-size="74" font-weight="700">83</text>
+  <text x="1265" y="360" fill="#a7c9c2" font-family="Verdana" font-size="25">/ 100</text>
+  <rect x="1155" y="402" width="322" height="68" rx="15" fill="#5b261e" stroke="#ff987e"/>
+  <text x="1180" y="445" fill="#ffd6cb" font-family="Verdana" font-size="22">HIGH · ENFORCE DMARC</text>
+  <g font-family="Verdana" font-size="21" fill="#e9fff8">
+    <text x="1155" y="527">• verified issue list</text>
+    <text x="1155" y="571">• confidence + data gaps</text>
+    <text x="1155" y="615">• evidence IDs + next action</text>
+  </g>
+
+  <path d="M505 450H570" stroke="#6d94bc" stroke-width="8" stroke-linecap="round"/><path d="M552 431L578 450 552 469" fill="none" stroke="#6d94bc" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1023 450H1088" stroke="#6d94bc" stroke-width="8" stroke-linecap="round"/><path d="M1070 431L1096 450 1070 469" fill="none" stroke="#6d94bc" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="215" y="736" width="1170" height="86" rx="22" fill="#0b263d" stroke="#2d6683" stroke-width="2"/>
+  <text x="800" y="772" text-anchor="middle" fill="#dff3ff" font-family="Verdana" font-size="22">For agencies, MSPs, deliverability teams, founders and portfolio operators.</text>
+  <text x="800" y="805" text-anchor="middle" fill="#91aec7" font-family="Verdana" font-size="19">Illustrative score. Every real result carries its own timestamp, source state and automation boundary.</text>
+  <text x="1515" y="865" text-anchor="end" fill="#7690aa" font-family="Verdana" font-size="17">ZININ DATA PRODUCTS · APIFY</text>
+</svg>

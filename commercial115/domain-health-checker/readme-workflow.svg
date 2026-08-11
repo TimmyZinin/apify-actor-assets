@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#071425"/>
+  <circle cx="1510" cy="-10" r="280" fill="#18345a" opacity=".6"/>
+  <text x="80" y="98" fill="#f7fbff" font-family="Verdana" font-size="51" font-weight="700">Truth-preserving domain audit workflow</text>
+  <text x="80" y="152" fill="#abc4df" font-family="Verdana" font-size="24">A source outage is not a client defect. Known evidence and unknown evidence take different paths.</text>
+
+  <rect x="80" y="225" width="280" height="150" rx="24" fill="#102a46" stroke="#5aa7ff" stroke-width="3"/>
+  <text x="220" y="276" text-anchor="middle" fill="#79bcff" font-family="Verdana" font-size="20" font-weight="700">1 · NORMALIZE</text>
+  <text x="220" y="319" text-anchor="middle" fill="#eef7ff" font-family="Verdana" font-size="22">1–100 domains</text>
+  <text x="220" y="351" text-anchor="middle" fill="#9eb9d3" font-family="Verdana" font-size="18">strict · unique · bounded</text>
+
+  <rect x="425" y="225" width="330" height="150" rx="24" fill="#182344" stroke="#9e7cff" stroke-width="3"/>
+  <text x="590" y="276" text-anchor="middle" fill="#b69aff" font-family="Verdana" font-size="20" font-weight="700">2 · OBSERVE</text>
+  <text x="590" y="319" text-anchor="middle" fill="#eef3ff" font-family="Verdana" font-size="21">DNS + mail auth + TLS</text>
+  <text x="590" y="351" text-anchor="middle" fill="#aaaed0" font-family="Verdana" font-size="18">SSRF-safe · timestamped</text>
+
+  <polygon points="890,210 1035,300 890,390 745,300" fill="#16314a" stroke="#57b8d8" stroke-width="3"/>
+  <text x="890" y="286" text-anchor="middle" fill="#82dff8" font-family="Verdana" font-size="20" font-weight="700">REQUIRED</text>
+  <text x="890" y="316" text-anchor="middle" fill="#eefcff" font-family="Verdana" font-size="20">sources known?</text>
+
+  <path d="M360 300H405" stroke="#6f93ba" stroke-width="7"/><path d="M392 284L414 300 392 316" fill="none" stroke="#6f93ba" stroke-width="7"/>
+  <path d="M755 300H730" stroke="#6f93ba" stroke-width="7"/>
+
+  <path d="M1035 300H1105" stroke="#55d6b2" stroke-width="7"/><path d="M1090 284L1112 300 1090 316" fill="none" stroke="#55d6b2" stroke-width="7"/>
+  <text x="1070" y="273" text-anchor="middle" fill="#71e3c2" font-family="Verdana" font-size="17" font-weight="700">YES</text>
+  <rect x="1115" y="215" width="405" height="190" rx="25" fill="#103b3d" stroke="#55d6b2" stroke-width="3"/>
+  <text x="1155" y="265" fill="#67e6c2" font-family="Verdana" font-size="20" font-weight="700">COMPLETE EVIDENCE CARD</text>
+  <g fill="#effff9" font-family="Verdana" font-size="20">
+    <text x="1155" y="306">• score + verified issues</text>
+    <text x="1155" y="339">• confidence + next action</text>
+    <text x="1155" y="372">• paid only when delivered</text>
+  </g>
+
+  <path d="M890 390V485" stroke="#ffae78" stroke-width="7"/><path d="M874 470L890 492 906 470" fill="none" stroke="#ffae78" stroke-width="7"/>
+  <text x="925" y="448" fill="#ffc196" font-family="Verdana" font-size="17" font-weight="700">NO / UNSAFE</text>
+  <rect x="650" y="500" width="480" height="185" rx="25" fill="#3d2528" stroke="#ff9c7b" stroke-width="3"/>
+  <text x="690" y="553" fill="#ffb397" font-family="Verdana" font-size="20" font-weight="700">UNKNOWN OR BLOCKED OUTCOME</text>
+  <g fill="#fff1eb" font-family="Verdana" font-size="20">
+    <text x="690" y="596">• score = null; no invented defect</text>
+    <text x="690" y="630">• source gap + retry action</text>
+    <text x="690" y="664">• free row; safeToAutomate = false</text>
+  </g>
+
+  <rect x="80" y="500" width="455" height="185" rx="25" fill="#102a46" stroke="#567fa7" stroke-width="3"/>
+  <text x="120" y="553" fill="#8fc1ef" font-family="Verdana" font-size="20" font-weight="700">RUN RECEIPT</text>
+  <g fill="#eef7ff" font-family="Verdana" font-size="20">
+    <text x="120" y="596">• requested / unique / duplicate</text>
+    <text x="120" y="630">• delivered / paid / free / withheld</text>
+    <text x="120" y="664">• fatal state + replay safety</text>
+  </g>
+  <path d="M650 594H560" stroke="#6f93ba" stroke-width="6"/><path d="M575 578L552 594 575 610" fill="none" stroke="#6f93ba" stroke-width="6"/>
+
+  <rect x="1185" y="500" width="335" height="185" rx="25" fill="#122d42" stroke="#4f7899" stroke-width="3"/>
+  <text x="1225" y="553" fill="#95c3e2" font-family="Verdana" font-size="20" font-weight="700">HUMAN DECISION</text>
+  <g fill="#eef8ff" font-family="Verdana" font-size="20">
+    <text x="1225" y="596">Fix · verify · retry</text>
+    <text x="1225" y="630">then monitor on a schedule</text>
+    <text x="1225" y="664">before changing production</text>
+  </g>
+
+  <rect x="225" y="750" width="1150" height="72" rx="20" fill="#0c263c" stroke="#2c6684" stroke-width="2"/>
+  <text x="800" y="795" text-anchor="middle" fill="#dff4ff" font-family="Verdana" font-size="22">Public DNS/TLS evidence supports review; it does not prove ownership, inbox placement, compliance or security.</text>
+  <text x="1515" y="865" text-anchor="end" fill="#7690aa" font-family="Verdana" font-size="17">ZININ DATA PRODUCTS · APIFY</text>
+</svg>
