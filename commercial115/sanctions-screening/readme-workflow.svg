@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>Official-List Name Screening Evidence: evidence-to-action workflow</title>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071226"/><stop offset="1" stop-color="#0B1830"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1490" cy="60" r="260" fill="#2457FF" opacity="0.11"/>
+  <circle cx="60" cy="850" r="220" fill="#23D5AB" opacity="0.08"/>
+
+  <text x="82" y="100" font-family="Inter,Arial,sans-serif" font-size="48" font-weight="760" fill="#FFFFFF">Official-List Name Screening Evidence:</text><text x="82" y="160" font-family="Inter,Arial,sans-serif" font-size="48" font-weight="760" fill="#FFFFFF">evidence-to-action workflow</text>
+
+  <rect x="82" y="260" width="420" height="360" rx="28" fill="#12213D" stroke="#62A4FF" stroke-width="2"/>
+  <text x="114" y="314" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#62A4FF">OBSERVED EVIDENCE</text>
+  <circle cx="124" cy="365" r="7" fill="#62A4FF"/><text x="146" y="374" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Official OFAC SDN primary and</text><text x="146" y="405.25" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">alias files</text><circle cx="124" cy="437" r="7" fill="#62A4FF"/><text x="146" y="446" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Official EU consolidated</text><text x="146" y="477.25" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">sanctions list</text><circle cx="124" cy="509" r="7" fill="#62A4FF"/><text x="146" y="518" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Observed list coverage and</text><text x="146" y="549.25" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">source failures</text>
+  <path d="M520 440 H585" stroke="#55739E" stroke-width="5"/><path d="M585 440 l-18 -12 v24z" fill="#55739E"/>
+
+  <rect x="600" y="260" width="420" height="360" rx="28" fill="#12213D" stroke="#A77BFF" stroke-width="2"/>
+  <text x="632" y="314" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#A77BFF">TRUTH-PRESERVING LOGIC</text>
+  <circle cx="642" cy="365" r="7" fill="#A77BFF"/><text x="664" y="374" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Normalize and deduplicate</text><text x="664" y="405.25" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">submitted names</text><circle cx="642" cy="437" r="7" fill="#A77BFF"/><text x="664" y="446" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Rank potential entity matches</text><text x="664" y="477.25" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">transparently</text><circle cx="642" cy="509" r="7" fill="#A77BFF"/><text x="664" y="518" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Expose incomplete coverage,</text><text x="664" y="549.25" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">confidence and gaps</text>
+  <path d="M1038 440 H1103" stroke="#55739E" stroke-width="5"/><path d="M1103 440 l-18 -12 v24z" fill="#55739E"/>
+
+  <rect x="1118" y="260" width="400" height="360" rx="28" fill="#12213D" stroke="#23D5AB" stroke-width="2"/>
+  <text x="1150" y="314" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#23D5AB">DECISION FIELDS</text>
+  <circle cx="1160" cy="365" r="7" fill="#23D5AB"/><text x="1182" y="374" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Potential-match review row</text><circle cx="1160" cy="437" r="7" fill="#23D5AB"/><text x="1182" y="446" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Official-source evidence and</text><text x="1182" y="477.25" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">limits</text><circle cx="1160" cy="509" r="7" fill="#23D5AB"/><text x="1182" y="518" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">Review, repeat or document</text><text x="1182" y="549.25" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="500" fill="#D9E7FF">action</text>
+  <rect x="82" y="690" width="1436" height="92" rx="22" fill="#102746" stroke="#23D5AB" stroke-width="2"/>
+  <text x="120" y="735" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="600" fill="#EAF5FF">Verify identity and current legal effect in primary official records with qualified compliance</text><text x="120" y="768.75" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="600" fill="#EAF5FF">counsel — a fuzzy name screen is not sanctions clearance.</text>
+
+  <text x="1510" y="855" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="20" fill="#7E93B5">ZININ DATA PRODUCTS · APIFY</text>
+</svg>
