@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#071426"/>
+  <circle cx="1450" cy="100" r="245" fill="#102a55"/>
+  <circle cx="90" cy="850" r="230" fill="#0b3149"/>
+  <text x="80" y="100" fill="#f7fbff" font-family="Verdana" font-size="50" font-weight="700">Company Lookup: evidence-to-action workflow</text>
+  <text x="80" y="154" fill="#a9c3df" font-family="Verdana" font-size="24">A domain, name, and legal entity are related concepts—not interchangeable identities.</text>
+  <rect x="80" y="220" width="410" height="430" rx="28" fill="#102544" stroke="#55a7ff" stroke-width="3"/>
+  <rect x="595" y="220" width="410" height="430" rx="28" fill="#161f45" stroke="#9a73ff" stroke-width="3"/>
+  <rect x="1110" y="220" width="410" height="430" rx="28" fill="#103344" stroke="#41dab8" stroke-width="3"/>
+  <text x="120" y="285" fill="#6cb8ff" font-family="Verdana" font-size="22" font-weight="700">OBSERVED SOURCES</text>
+  <text x="635" y="285" fill="#af8dff" font-family="Verdana" font-size="22" font-weight="700">TRUTH-PRESERVING LOGIC</text>
+  <text x="1150" y="285" fill="#4de0be" font-family="Verdana" font-size="22" font-weight="700">DECISION FIELDS</text>
+  <g fill="#eef6ff" font-family="Verdana" font-size="24">
+    <text x="120" y="360">• Homepage HTML + headers</text>
+    <text x="120" y="425">• Final public URL</text>
+    <text x="120" y="490">• GLEIF LEI record</text>
+    <text x="120" y="555">• Scored name candidates</text>
+    <text x="635" y="360">• SSRF + DNS pinning</text>
+    <text x="635" y="425">• Canonical input dedupe</text>
+    <text x="635" y="490">• Name match ≠ ownership</text>
+    <text x="635" y="555">• Exact linked PPE receipt</text>
+    <text x="1150" y="360">• Evidence + freshness</text>
+    <text x="1150" y="425">• Three confidence layers</text>
+    <text x="1150" y="490">• Explicit data gaps</text>
+    <text x="1150" y="555">• Review action + billing</text>
+  </g>
+  <path d="M510 435H570" stroke="#6f93ba" stroke-width="8" stroke-linecap="round"/>
+  <path d="M555 417L580 435 555 453" fill="none" stroke="#6f93ba" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1025 435H1085" stroke="#6f93ba" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1070 417L1095 435 1070 453" fill="none" stroke="#6f93ba" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="220" y="710" width="1160" height="105" rx="24" fill="#0d2941" stroke="#2e7f9e" stroke-width="2"/>
+  <text x="800" y="752" text-anchor="middle" fill="#d9efff" font-family="Verdana" font-size="23">Verify the domain-to-legal-entity link before CRM merge, outreach, compliance, or risk decisions.</text>
+  <text x="800" y="787" text-anchor="middle" fill="#8fb4d2" font-family="Verdana" font-size="20">Public evidence supports review. It does not replace KYC, credit, ownership, or intent verification.</text>
+  <text x="1510" y="860" text-anchor="end" fill="#7892ad" font-family="Verdana" font-size="17">ZININ DATA PRODUCTS · APIFY</text>
+</svg>
