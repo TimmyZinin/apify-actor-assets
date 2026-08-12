@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>Telegram Export Intelligence workflow</title>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07131F"/><stop offset="1" stop-color="#10263B"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="80" y="96" font-family="Inter,Arial,sans-serif" font-size="52" font-weight="760" fill="#FFFFFF">Evidence-to-action workflow</text>
+  <text x="82" y="156" font-family="Inter,Arial,sans-serif" font-size="27" fill="#B3CCE0">One bounded pipeline, current-run settlement, human editorial control</text>
+
+  <rect x="76" y="246" width="300" height="410" rx="28" fill="#122B42" stroke="#2AABEE" stroke-width="2"/>
+  <text x="112" y="307" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="740" fill="#55C8FF">1 · INGEST</text>
+  <rect x="112" y="350" width="228" height="62" rx="14" fill="#173A57"/><text x="226" y="390" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E0EEFA">Desktop JSON export</text>
+  <rect x="112" y="432" width="228" height="62" rx="14" fill="#173A57"/><text x="226" y="472" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E0EEFA">API / Task input</text>
+  <rect x="112" y="514" width="228" height="62" rx="14" fill="#173A57"/><text x="226" y="554" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E0EEFA">Authorized archive</text>
+  <text x="112" y="621" font-family="Inter,Arial,sans-serif" font-size="19" fill="#89A7BE">No session token</text>
+
+  <path d="M394 448 H438" stroke="#688AA5" stroke-width="5"/><path d="M438 448 l-18 -12 v24z" fill="#688AA5"/>
+  <rect x="454" y="246" width="340" height="410" rx="28" fill="#14253D" stroke="#A782FF" stroke-width="2"/>
+  <text x="490" y="307" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="740" fill="#BC9EFF">2 · ACTOR</text>
+  <circle cx="500" cy="372" r="7" fill="#BC9EFF"/><text x="524" y="381" font-family="Inter,Arial,sans-serif" font-size="23" fill="#E0EEFA">Validate rights + shape</text>
+  <circle cx="500" cy="440" r="7" fill="#BC9EFF"/><text x="524" y="449" font-family="Inter,Arial,sans-serif" font-size="23" fill="#E0EEFA">Dedupe channel/post</text>
+  <circle cx="500" cy="508" r="7" fill="#BC9EFF"/><text x="524" y="517" font-family="Inter,Arial,sans-serif" font-size="23" fill="#E0EEFA">Calculate reach context</text>
+  <circle cx="500" cy="576" r="7" fill="#BC9EFF"/><text x="524" y="585" font-family="Inter,Arial,sans-serif" font-size="23" fill="#E0EEFA">Route review priority</text>
+
+  <path d="M812 448 H856" stroke="#688AA5" stroke-width="5"/><path d="M856 448 l-18 -12 v24z" fill="#688AA5"/>
+  <rect x="872" y="246" width="300" height="410" rx="28" fill="#152D3B" stroke="#F0B85A" stroke-width="2"/>
+  <text x="908" y="307" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="740" fill="#FFD07D">3 · RECEIPTS</text>
+  <rect x="908" y="350" width="228" height="82" rx="14" fill="#263A43"/><text x="1022" y="385" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="22" fill="#FFF2D8">Dataset rows</text><text x="1022" y="411" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="17" fill="#BFD1DB">evidence + action</text>
+  <rect x="908" y="458" width="228" height="82" rx="14" fill="#263A43"/><text x="1022" y="493" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="22" fill="#FFF2D8">KVS OUTPUT</text><text x="1022" y="519" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="17" fill="#BFD1DB">paid/free/replay truth</text>
+  <text x="908" y="596" font-family="Inter,Arial,sans-serif" font-size="19" fill="#9DB2BF">Exact named +1 events</text>
+
+  <path d="M1190 448 H1234" stroke="#688AA5" stroke-width="5"/><path d="M1234 448 l-18 -12 v24z" fill="#688AA5"/>
+  <rect x="1250" y="246" width="274" height="410" rx="28" fill="#12362F" stroke="#4BE4B3" stroke-width="2"/>
+  <text x="1286" y="307" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="740" fill="#63EDC0">4 · REVIEW</text>
+  <circle cx="1296" cy="372" r="7" fill="#63EDC0"/><text x="1320" y="381" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E0EEFA">Editorial board</text>
+  <circle cx="1296" cy="440" r="7" fill="#63EDC0"/><text x="1320" y="449" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E0EEFA">Analytics sheet</text>
+  <circle cx="1296" cy="508" r="7" fill="#63EDC0"/><text x="1320" y="517" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E0EEFA">CRM evidence</text>
+  <circle cx="1296" cy="576" r="7" fill="#63EDC0"/><text x="1320" y="585" font-family="Inter,Arial,sans-serif" font-size="22" fill="#E0EEFA">Human action</text>
+
+  <rect x="76" y="720" width="1448" height="86" rx="18" fill="#0E1E30" stroke="#2D4D69"/>
+  <text x="112" y="772" font-family="Inter,Arial,sans-serif" font-size="24" fill="#AFC8DB">Never fetches Telegram · Never publishes · Never treats supplied metrics as independent verification</text>
+  <text x="1518" y="854" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="19" fill="#7893A8">ZININ DATA PRODUCTS · APIFY</text>
+</svg>

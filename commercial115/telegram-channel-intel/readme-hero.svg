@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>Telegram Export Intelligence</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07131F"/><stop offset="1" stop-color="#10263B"/></linearGradient>
+    <linearGradient id="telegram" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2AABEE"/><stop offset="1" stop-color="#1779B8"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1480" cy="70" r="270" fill="#2AABEE" opacity="0.10"/>
+  <circle cx="70" cy="850" r="230" fill="#4BE4B3" opacity="0.08"/>
+  <text x="80" y="96" font-family="Inter,Arial,sans-serif" font-size="54" font-weight="760" fill="#FFFFFF">Telegram Export Intelligence</text>
+  <text x="82" y="158" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="500" fill="#B3CCE0">Owner-authorized message records → evidence → review action</text>
+
+  <rect x="80" y="260" width="420" height="410" rx="28" fill="#122B42" stroke="#2AABEE" stroke-width="2"/>
+  <circle cx="132" cy="322" r="31" fill="url(#telegram)"/>
+  <path d="M113 321l39-15-8 39-12-10-8 7 2-12z" fill="#FFFFFF"/>
+  <text x="180" y="330" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="740" fill="#55C8FF">AUTHORIZED INPUT</text>
+  <circle cx="124" cy="406" r="7" fill="#55C8FF"/><text x="148" y="415" font-family="Inter,Arial,sans-serif" font-size="25" fill="#E0EEFA">Telegram Desktop export</text>
+  <circle cx="124" cy="474" r="7" fill="#55C8FF"/><text x="148" y="483" font-family="Inter,Arial,sans-serif" font-size="25" fill="#E0EEFA">Channel-owner archive</text>
+  <circle cx="124" cy="542" r="7" fill="#55C8FF"/><text x="148" y="551" font-family="Inter,Arial,sans-serif" font-size="25" fill="#E0EEFA">Rights confirmation</text>
+  <circle cx="124" cy="610" r="7" fill="#55C8FF"/><text x="148" y="619" font-family="Inter,Arial,sans-serif" font-size="25" fill="#E0EEFA">No login · no scraping</text>
+
+  <path d="M518 465 H568" stroke="#688AA5" stroke-width="5"/><path d="M568 465 l-18 -12 v24z" fill="#688AA5"/>
+  <rect x="584" y="260" width="432" height="410" rx="28" fill="#14253D" stroke="#A782FF" stroke-width="2"/>
+  <text x="620" y="330" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="740" fill="#BC9EFF">EVIDENCE LAYER</text>
+  <circle cx="628" cy="406" r="7" fill="#BC9EFF"/><text x="652" y="415" font-family="Inter,Arial,sans-serif" font-size="25" fill="#E0EEFA">Stable channel + post ID</text>
+  <circle cx="628" cy="474" r="7" fill="#BC9EFF"/><text x="652" y="483" font-family="Inter,Arial,sans-serif" font-size="25" fill="#E0EEFA">Reach context &amp; freshness</text>
+  <circle cx="628" cy="542" r="7" fill="#BC9EFF"/><text x="652" y="551" font-family="Inter,Arial,sans-serif" font-size="25" fill="#E0EEFA">Confidence basis &amp; gaps</text>
+  <circle cx="628" cy="610" r="7" fill="#BC9EFF"/><text x="652" y="619" font-family="Inter,Arial,sans-serif" font-size="25" fill="#E0EEFA">Exact delivery settlement</text>
+
+  <path d="M1034 465 H1084" stroke="#688AA5" stroke-width="5"/><path d="M1084 465 l-18 -12 v24z" fill="#688AA5"/>
+  <rect x="1100" y="260" width="420" height="410" rx="28" fill="#12362F" stroke="#4BE4B3" stroke-width="2"/>
+  <text x="1136" y="330" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="740" fill="#63EDC0">HUMAN OUTCOME</text>
+  <circle cx="1144" cy="406" r="7" fill="#63EDC0"/><text x="1168" y="415" font-family="Inter,Arial,sans-serif" font-size="25" fill="#E0EEFA">Post review priority</text>
+  <circle cx="1144" cy="474" r="7" fill="#63EDC0"/><text x="1168" y="483" font-family="Inter,Arial,sans-serif" font-size="25" fill="#E0EEFA">Recommended next action</text>
+  <circle cx="1144" cy="542" r="7" fill="#63EDC0"/><text x="1168" y="551" font-family="Inter,Arial,sans-serif" font-size="25" fill="#E0EEFA">Evidence gaps retained</text>
+  <circle cx="1144" cy="610" r="7" fill="#63EDC0"/><text x="1168" y="619" font-family="Inter,Arial,sans-serif" font-size="25" fill="#E0EEFA">No autonomous publishing</text>
+
+  <rect x="80" y="728" width="1440" height="76" rx="18" fill="#0E1E30" stroke="#2D4D69"/>
+  <text x="116" y="776" font-family="Inter,Arial,sans-serif" font-size="25" fill="#AFC8DB">For channel owners, editorial teams, analysts, agencies and authorized operations workflows</text>
+  <text x="1518" y="854" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="19" fill="#7893A8">ZININ DATA PRODUCTS · APIFY</text>
+</svg>
