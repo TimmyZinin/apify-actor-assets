@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071827"/><stop offset="1" stop-color="#0b3b47"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#143a51"/><stop offset="1" stop-color="#102737"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#001019" flood-opacity=".6"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1350" cy="120" r="330" fill="#19d3ae" opacity=".08"/><circle cx="210" cy="780" r="360" fill="#55a7ff" opacity=".08"/>
+  <text x="96" y="112" fill="#8fead7" font-family="Arial,sans-serif" font-size="28" font-weight="700" letter-spacing="4">AUTHORIZED PROFESSIONAL DIRECTORY</text>
+  <text x="96" y="185" fill="#fff" font-family="Arial,sans-serif" font-size="58" font-weight="800">Evidence before action</text>
+  <text x="96" y="235" fill="#b8d2df" font-family="Arial,sans-serif" font-size="25">Licensed exports → privacy-aware intelligence → human review</text>
+  <g filter="url(#shadow)">
+    <rect x="95" y="325" width="370" height="350" rx="28" fill="url(#card)" stroke="#3d7186"/>
+    <rect x="125" y="360" width="158" height="38" rx="19" fill="#1f5a70"/><text x="144" y="387" fill="#d8f6ff" font-family="Arial" font-size="18" font-weight="700">AUTHORIZED EXPORT</text>
+    <rect x="130" y="438" width="300" height="50" rx="12" fill="#0b1d29"/><circle cx="158" cy="463" r="10" fill="#55a7ff"/><rect x="181" y="453" width="173" height="9" rx="5" fill="#8fb4c7"/><rect x="181" y="469" width="112" height="7" rx="4" fill="#456b7e"/>
+    <rect x="130" y="510" width="300" height="50" rx="12" fill="#0b1d29"/><circle cx="158" cy="535" r="10" fill="#55a7ff"/><rect x="181" y="525" width="149" height="9" rx="5" fill="#8fb4c7"/><rect x="181" y="541" width="128" height="7" rx="4" fill="#456b7e"/>
+    <rect x="130" y="582" width="300" height="50" rx="12" fill="#0b1d29"/><circle cx="158" cy="607" r="10" fill="#55a7ff"/><rect x="181" y="597" width="184" height="9" rx="5" fill="#8fb4c7"/><rect x="181" y="613" width="96" height="7" rx="4" fill="#456b7e"/>
+  </g>
+  <path d="M495 500h125" stroke="#55a7ff" stroke-width="8" stroke-linecap="round"/><path d="m605 480 28 20-28 20" fill="none" stroke="#55a7ff" stroke-width="8"/>
+  <g filter="url(#shadow)">
+    <path d="M760 320 900 370v127c0 95-59 151-140 190-81-39-140-95-140-190V370z" fill="#0f5962" stroke="#69f2d1" stroke-width="3"/>
+    <path d="m705 493 38 39 77-91" fill="none" stroke="#69f2d1" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="668" y="614" fill="#d8fff4" font-family="Arial" font-size="22" font-weight="800">PRIVACY-AWARE</text>
+  </g>
+  <path d="M935 500h105" stroke="#69f2d1" stroke-width="8" stroke-linecap="round"/><path d="m1025 480 28 20-28 20" fill="none" stroke="#69f2d1" stroke-width="8"/>
+  <g filter="url(#shadow)">
+    <rect x="1070" y="315" width="430" height="370" rx="28" fill="url(#card)" stroke="#3d7186"/>
+    <text x="1110" y="375" fill="#fff" font-family="Arial" font-size="27" font-weight="800">HUMAN REVIEW QUEUE</text>
+    <g font-family="Arial" font-size="17" font-weight="700">
+      <rect x="1110" y="422" width="350" height="64" rx="14" fill="#0b1d29"/><circle cx="1142" cy="454" r="13" fill="#ffbd59"/><text x="1174" y="449" fill="#fff">VERIFY IDENTITY</text><text x="1174" y="470" fill="#809dac" font-size="14">credentials not independently checked</text>
+      <rect x="1110" y="508" width="350" height="64" rx="14" fill="#0b1d29"/><circle cx="1142" cy="540" r="13" fill="#69f2d1"/><text x="1174" y="535" fill="#fff">CHECK RIGHTS</text><text x="1174" y="556" fill="#809dac" font-size="14">buyer-attested licence evidence</text>
+      <rect x="1110" y="594" width="350" height="64" rx="14" fill="#0b1d29"/><circle cx="1142" cy="626" r="13" fill="#55a7ff"/><text x="1174" y="621" fill="#fff">REVIEW PURPOSE</text><text x="1174" y="642" fill="#809dac" font-size="14">safeToAutomate = false</text>
+    </g>
+  </g>
+  <rect x="96" y="770" width="1408" height="2" fill="#295162"/><text x="96" y="826" fill="#9bb8c6" font-family="Arial" font-size="21">ZERO NETWORK REQUESTS  •  NO CONTACT DATA  •  CURRENT-RUN SETTLEMENT RECEIPT</text>
+</svg>
