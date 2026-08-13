@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06101F"/><stop offset="1" stop-color="#101B33"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2DD4BF"/><stop offset="1" stop-color="#60A5FA"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="45"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1420" cy="90" r="250" fill="#0F766E" opacity=".20" filter="url(#soft)"/>
+  <circle cx="160" cy="820" r="230" fill="#60A5FA" opacity=".09" filter="url(#soft)"/>
+  <path d="M0 760 L160 650 L260 710 L430 565 L560 635 L720 500 L850 590 L1040 430 L1210 560 L1370 390 L1600 535 V900 H0Z" fill="#0B1730" opacity=".88"/>
+  <text x="82" y="92" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="4" fill="#2DD4BF">LISBON · PORTUGAL</text>
+  <text x="82" y="180" font-family="Inter,Arial,sans-serif" font-size="58" font-weight="760" fill="#FFFFFF">Licensed Lisbon Property Export Normalizer</text>
+  <text x="84" y="236" font-family="Inter,Arial,sans-serif" font-size="29" fill="#B9CAE7">Authorized property records in. Review-ready evidence out.</text>
+  <rect x="82" y="300" width="1436" height="3" fill="url(#line)"/>
+  <g font-family="Inter,Arial,sans-serif">
+    <rect x="82" y="355" width="410" height="300" rx="28" fill="#13213B" stroke="#2DD4BF" stroke-width="2"/>
+    <text x="118" y="415" font-size="21" font-weight="700" fill="#2DD4BF">YOUR AUTHORIZED EXPORT</text>
+    <text x="118" y="480" font-size="27" fill="#F4F8FF">Stable listing identity</text><text x="118" y="528" font-size="27" fill="#F4F8FF">Rights context</text><text x="118" y="576" font-size="27" fill="#F4F8FF">Source provenance</text>
+    <rect x="595" y="355" width="410" height="300" rx="28" fill="#13213B" stroke="#60A5FA" stroke-width="2"/>
+    <text x="631" y="415" font-size="21" font-weight="700" fill="#60A5FA">ZERO-NETWORK NORMALIZATION</text>
+    <text x="631" y="480" font-size="27" fill="#F4F8FF">Validate &amp; dedupe</text><text x="631" y="528" font-size="27" fill="#F4F8FF">Bind evidence digests</text><text x="631" y="576" font-size="27" fill="#F4F8FF">Expose confidence gaps</text>
+    <rect x="1108" y="355" width="410" height="300" rx="28" fill="#13213B" stroke="url(#line)" stroke-width="2"/>
+    <text x="1144" y="415" font-size="21" font-weight="700" fill="#2DD4BF">CURRENT-RUN OUTCOME</text>
+    <text x="1144" y="480" font-size="27" fill="#F4F8FF">Dataset evidence row</text><text x="1144" y="528" font-size="27" fill="#F4F8FF">Exact paid-unit receipt</text><text x="1144" y="576" font-size="27" fill="#F4F8FF">Human review action</text>
+  </g>
+  <g font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700"><rect x="84" y="718" width="270" height="48" rx="24" fill="#2DD4BF" opacity=".15"/><text x="111" y="749" fill="#2DD4BF">ZERO SOURCE REQUESTS</text><rect x="374" y="718" width="255" height="48" rx="24" fill="#60A5FA" opacity=".15"/><text x="405" y="749" fill="#60A5FA">PROVENANCE LINKED</text><rect x="649" y="718" width="258" height="48" rx="24" fill="#2DD4BF" opacity=".15"/><text x="681" y="749" fill="#2DD4BF">REVIEW REQUIRED</text></g>
+  <text x="1518" y="848" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="19" fill="#8297B8">ZININ DATA PRODUCTS · APIFY</text>
+</svg>
