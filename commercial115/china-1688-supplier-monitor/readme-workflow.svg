@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">1688 Authorized Offer Comparison workflow</title>
+  <desc id="desc">Authorized export, closed validation, deduplication, comparison, Dataset and KVS reconciliation, then human review.</desc>
+  <image href="readme-workflow.png" width="1600" height="900" preserveAspectRatio="xMidYMid slice"/>
+</svg>
