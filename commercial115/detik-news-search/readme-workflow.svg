@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>Detik authorized evidence workflow from licensed export to reviewed downstream action</title>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071226"/><stop offset="1" stop-color="#101B32"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="82" y="104" font-family="Inter,Arial,sans-serif" font-size="52" font-weight="760" fill="#FFFFFF">Evidence-to-action workflow</text>
+  <text x="84" y="188" font-family="Inter,Arial,sans-serif" font-size="29" fill="#AFC3E8">Keep source rights, normalized evidence, settlement, and buyer review separate.</text>
+  <rect x="70" y="300" width="300" height="330" rx="28" fill="#12213D" stroke="#62A4FF" stroke-width="2"/>
+  <text x="105" y="355" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#62A4FF">1 · LICENSED EXPORT</text>
+  <text x="105" y="430" font-family="Inter,Arial,sans-serif" font-size="23" fill="#D9E7FF">API, Dataset, CLI</text>
+  <text x="105" y="474" font-family="Inter,Arial,sans-serif" font-size="23" fill="#D9E7FF">or scheduled input</text>
+  <text x="105" y="548" font-family="Inter,Arial,sans-serif" font-size="21" fill="#8FA8CF">Buyer confirms rights</text>
+  <path d="M390 465 H445" stroke="#55739E" stroke-width="5"/><path d="M445 465 l-18 -12 v24z" fill="#55739E"/>
+  <rect x="460" y="300" width="300" height="330" rx="28" fill="#12213D" stroke="#A77BFF" stroke-width="2"/>
+  <text x="495" y="355" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#A77BFF">2 · ACTOR</text>
+  <text x="495" y="430" font-family="Inter,Arial,sans-serif" font-size="23" fill="#D9E7FF">Validate, normalize,</text>
+  <text x="495" y="474" font-family="Inter,Arial,sans-serif" font-size="23" fill="#D9E7FF">dedupe and hash</text>
+  <text x="495" y="548" font-family="Inter,Arial,sans-serif" font-size="21" fill="#8FA8CF">No outbound request</text>
+  <path d="M780 465 H835" stroke="#55739E" stroke-width="5"/><path d="M835 465 l-18 -12 v24z" fill="#55739E"/>
+  <rect x="850" y="300" width="300" height="330" rx="28" fill="#12213D" stroke="#FFB15C" stroke-width="2"/>
+  <text x="885" y="355" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#FFB15C">3 · EVIDENCE</text>
+  <text x="885" y="430" font-family="Inter,Arial,sans-serif" font-size="23" fill="#D9E7FF">Dataset report</text>
+  <text x="885" y="474" font-family="Inter,Arial,sans-serif" font-size="23" fill="#D9E7FF">+ KVS OUTPUT</text>
+  <text x="885" y="548" font-family="Inter,Arial,sans-serif" font-size="21" fill="#8FA8CF">Delivery ≠ settlement</text>
+  <path d="M1170 465 H1225" stroke="#55739E" stroke-width="5"/><path d="M1225 465 l-18 -12 v24z" fill="#55739E"/>
+  <rect x="1240" y="300" width="290" height="330" rx="28" fill="#12213D" stroke="#23D5AB" stroke-width="2"/>
+  <text x="1275" y="355" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#23D5AB">4 · REVIEW</text>
+  <text x="1275" y="430" font-family="Inter,Arial,sans-serif" font-size="23" fill="#D9E7FF">Approve, correct,</text>
+  <text x="1275" y="474" font-family="Inter,Arial,sans-serif" font-size="23" fill="#D9E7FF">retain or discard</text>
+  <text x="1275" y="548" font-family="Inter,Arial,sans-serif" font-size="21" fill="#8FA8CF">Then route downstream</text>
+  <rect x="400" y="700" width="800" height="72" rx="20" fill="#0D2940" stroke="#23D5AB" stroke-width="1.5"/>
+  <text x="800" y="746" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="24" fill="#CFEFE7">Never blindly retry an unknown delivery or settlement state</text>
+  <text x="1510" y="855" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="20" fill="#7E93B5">ZININ DATA PRODUCTS · APIFY</text>
+</svg>
