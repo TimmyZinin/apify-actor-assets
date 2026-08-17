@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#101216"/>
+<rect x="0" y="0" width="1600" height="6" fill="#FF3860"/>
+<text x="80" y="118" font-family="Helvetica" font-size="54" font-weight="bold" fill="#f2f4f7">Where it sits in your pipeline</text>
+<text x="80" y="172" font-family="Helvetica" font-size="30" fill="#98a1ad">Lookalike-audience building for influencer and competitor lists</text>
+<rect x="60" y="300" width="440" height="340" rx="18" fill="#1a1e25" stroke="#2a2f38" stroke-width="2"/>
+<rect x="60" y="300" width="8" height="340" rx="4" fill="#FF3860"/>
+<text x="96" y="362" font-family="Helvetica" font-size="34" font-weight="bold" fill="#f2f4f7">Trigger</text>
+<text x="96" y="424" font-family="Helvetica" font-size="27" fill="#98a1ad">schedule / Apify API</text><text x="96" y="466" font-family="Helvetica" font-size="27" fill="#98a1ad">competitor watch-list</text><text x="96" y="508" font-family="Helvetica" font-size="27" fill="#98a1ad">influencer research tool</text>
+<rect x="397" y="572" width="105" height="44" rx="22" fill="#FF3860"/>
+<text x="449.5" y="601" font-family="Helvetica" font-size="24" font-weight="bold" fill="#101216" text-anchor="middle">START</text>
+<rect x="580" y="300" width="440" height="340" rx="18" fill="#1a1e25" stroke="#2a2f38" stroke-width="2"/>
+<rect x="580" y="300" width="8" height="340" rx="4" fill="#FF3860"/>
+<text x="616" y="362" font-family="Helvetica" font-size="34" font-weight="bold" fill="#f2f4f7">Actor run</text>
+<text x="616" y="424" font-family="Helvetica" font-size="27" fill="#98a1ad">fetch /about widget</text><text x="616" y="466" font-family="Helvetica" font-size="27" fill="#98a1ad">extract similar list</text><text x="616" y="508" font-family="Helvetica" font-size="27" fill="#98a1ad">exclude source channel</text>
+<rect x="917" y="572" width="75" height="44" rx="22" fill="#FF3860"/>
+<text x="954.5" y="601" font-family="Helvetica" font-size="24" font-weight="bold" fill="#101216" text-anchor="middle">RUN</text>
+<rect x="1100" y="300" width="440" height="340" rx="18" fill="#1a1e25" stroke="#2a2f38" stroke-width="2"/>
+<rect x="1100" y="300" width="8" height="340" rx="4" fill="#FF3860"/>
+<text x="1136" y="362" font-family="Helvetica" font-size="34" font-weight="bold" fill="#f2f4f7">Build &amp; target</text>
+<text x="1136" y="424" font-family="Helvetica" font-size="27" fill="#98a1ad">channel -&gt; lookalike list</text><text x="1136" y="466" font-family="Helvetica" font-size="27" fill="#98a1ad">list -&gt; outreach batch</text><text x="1136" y="508" font-family="Helvetica" font-size="27" fill="#98a1ad">feeds media planning</text>
+<rect x="1437" y="572" width="75" height="44" rx="22" fill="#FF3860"/>
+<text x="1474.5" y="601" font-family="Helvetica" font-size="24" font-weight="bold" fill="#101216" text-anchor="middle">CRM</text>
+<line x1="508" y1="470.0" x2="546" y2="470.0" stroke="#FF3860" stroke-width="5"/><path d="M 546 456.0 L 572 470.0 L 546 484.0 Z" fill="#FF3860"/>
+<line x1="1028" y1="470.0" x2="1066" y2="470.0" stroke="#FF3860" stroke-width="5"/><path d="M 1066 456.0 L 1092 470.0 L 1066 484.0 Z" fill="#FF3860"/>
+<text x="80" y="852" font-family="Helvetica" font-size="24" fill="#98a1ad">apify.com/zinin · pay per verified result · robots.txt honoured on every host</text>
+</svg>

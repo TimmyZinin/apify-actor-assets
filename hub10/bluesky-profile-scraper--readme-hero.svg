@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#101216"/>
+<rect x="0" y="0" width="1600" height="6" fill="#8C7DFB"/>
+<text x="80" y="118" font-family="Helvetica" font-size="54" font-weight="bold" fill="#f2f4f7">Bluesky Profile Scraper</text>
+<text x="80" y="172" font-family="Helvetica" font-size="30" fill="#98a1ad">Handles or DIDs in — public profiles out, batched in one call</text>
+<rect x="60" y="300" width="440" height="340" rx="18" fill="#1a1e25" stroke="#2a2f38" stroke-width="2"/>
+<rect x="60" y="300" width="8" height="340" rx="4" fill="#8C7DFB"/>
+<text x="96" y="362" font-family="Helvetica" font-size="34" font-weight="bold" fill="#f2f4f7">You submit</text>
+<text x="96" y="424" font-family="Helvetica" font-size="27" fill="#98a1ad">up to 100 handles/DIDs</text><text x="96" y="466" font-family="Helvetica" font-size="27" fill="#98a1ad">DID is more stable</text><text x="96" y="508" font-family="Helvetica" font-size="27" fill="#98a1ad">no login, no token</text>
+<rect x="367" y="572" width="105" height="44" rx="22" fill="#8C7DFB"/>
+<text x="419.5" y="601" font-family="Helvetica" font-size="24" font-weight="bold" fill="#101216" text-anchor="middle">INPUT</text>
+<rect x="580" y="300" width="440" height="340" rx="18" fill="#1a1e25" stroke="#2a2f38" stroke-width="2"/>
+<rect x="580" y="300" width="8" height="340" rx="4" fill="#8C7DFB"/>
+<text x="616" y="362" font-family="Helvetica" font-size="34" font-weight="bold" fill="#f2f4f7">The Actor reads</text>
+<text x="616" y="424" font-family="Helvetica" font-size="27" fill="#98a1ad">getProfiles batch call</text><text x="616" y="466" font-family="Helvetica" font-size="27" fill="#98a1ad">diffs list vs response</text><text x="616" y="508" font-family="Helvetica" font-size="27" fill="#98a1ad">no silent drops</text>
+<rect x="887" y="572" width="150" height="44" rx="22" fill="#8C7DFB"/>
+<text x="962" y="601" font-family="Helvetica" font-size="24" font-weight="bold" fill="#101216" text-anchor="middle">EVIDENCE</text>
+<rect x="1100" y="300" width="440" height="340" rx="18" fill="#1a1e25" stroke="#2a2f38" stroke-width="2"/>
+<rect x="1100" y="300" width="8" height="340" rx="4" fill="#8C7DFB"/>
+<text x="1136" y="362" font-family="Helvetica" font-size="34" font-weight="bold" fill="#f2f4f7">You receive</text>
+<text x="1136" y="424" font-family="Helvetica" font-size="27" fill="#98a1ad">followers, bio, posts</text><text x="1136" y="466" font-family="Helvetica" font-size="27" fill="#98a1ad">verified status if set</text><text x="1136" y="508" font-family="Helvetica" font-size="27" fill="#98a1ad">honest not_found rows</text>
+<rect x="1407" y="572" width="120" height="44" rx="22" fill="#8C7DFB"/>
+<text x="1467" y="601" font-family="Helvetica" font-size="24" font-weight="bold" fill="#101216" text-anchor="middle">OUTPUT</text>
+<line x1="508" y1="470.0" x2="546" y2="470.0" stroke="#8C7DFB" stroke-width="5"/><path d="M 546 456.0 L 572 470.0 L 546 484.0 Z" fill="#8C7DFB"/>
+<line x1="1028" y1="470.0" x2="1066" y2="470.0" stroke="#8C7DFB" stroke-width="5"/><path d="M 1066 456.0 L 1092 470.0 L 1066 484.0 Z" fill="#8C7DFB"/>
+<text x="80" y="852" font-family="Helvetica" font-size="24" fill="#98a1ad">apify.com/zinin · pay per verified result · robots.txt honoured on every host</text>
+</svg>
