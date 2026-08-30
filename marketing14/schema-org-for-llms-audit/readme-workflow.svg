@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Schema.org for LLMs Audit workflow</title>
+  <desc id="desc">A fail-closed flow from normalized URLs through network safety, fact extraction, reconciliation, and atomic delivery and billing.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#2f3d32" flood-opacity="0.11"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0l12 6-12 6z" fill="#2e7d5b"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="#f6f0e4"/>
+  <path d="M0 7H1600" stroke="#d97745" stroke-width="14"/>
+  <circle cx="1510" cy="770" r="265" fill="#e5d6be" opacity="0.5"/>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="80" y="105" font-size="54" font-weight="850" letter-spacing="-1" fill="#243129">From URL to defensible GEO action</text>
+    <text x="80" y="153" font-size="26" font-weight="500" fill="#536058">Every network hop is guarded. Only a delivered audit can trigger result-found.</text>
+
+    <g filter="url(#shadow)">
+      <rect x="80" y="240" width="232" height="230" rx="26" fill="#fffdf8"/>
+      <rect x="382" y="240" width="232" height="230" rx="26" fill="#fffdf8"/>
+      <rect x="684" y="240" width="232" height="230" rx="26" fill="#fffdf8"/>
+      <rect x="986" y="240" width="232" height="230" rx="26" fill="#fffdf8"/>
+      <rect x="1288" y="240" width="232" height="230" rx="26" fill="#fffdf8"/>
+    </g>
+
+    <g text-anchor="middle">
+      <g transform="translate(196 285)">
+        <circle r="33" fill="#f2dccd"/>
+        <path d="M-17-7h34M-17 3h25M-17 13h19" stroke="#a34b2b" stroke-width="4" stroke-linecap="round"/>
+        <text y="76" font-size="22" font-weight="800" fill="#243129">1 · Normalize</text>
+        <text y="110" font-size="17" fill="#536058">dedupe 1–50 URLs</text>
+        <text y="136" font-size="17" fill="#536058">validate buyer input</text>
+      </g>
+      <g transform="translate(498 285)">
+        <circle r="33" fill="#efe6c8"/>
+        <path d="M0-18l20 8v16c0 14-9 21-20 25-11-4-20-11-20-25v-16zM-9 4l7 7L11-6" fill="none" stroke="#8a681e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <text y="76" font-size="22" font-weight="800" fill="#243129">2 · Guard</text>
+        <text y="110" font-size="17" fill="#536058">DNS + IP safety</text>
+        <text y="136" font-size="17" fill="#536058">robots per redirect</text>
+      </g>
+      <g transform="translate(800 285)">
+        <circle r="33" fill="#dce8da"/>
+        <path d="M-17-15h34v30h-34zM-9-5h18M-9 4h18" fill="none" stroke="#2e7d5b" stroke-width="4" stroke-linecap="round"/>
+        <text y="76" font-size="22" font-weight="800" fill="#243129">3 · Extract</text>
+        <text y="110" font-size="17" fill="#536058">static HTML facts</text>
+        <text y="136" font-size="17" fill="#536058">5 evidence surfaces</text>
+      </g>
+      <g transform="translate(1102 285)">
+        <circle r="33" fill="#e7e6dc"/>
+        <path d="M-18-11h12v22h-12zM6-16h12v32H6zM-5 0H6M-5-7l11 7-11 7" fill="none" stroke="#536058" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <text y="76" font-size="22" font-weight="800" fill="#243129">4 · Reconcile</text>
+        <text y="110" font-size="17" fill="#536058">score coverage</text>
+        <text y="136" font-size="17" fill="#536058">flag contradictions</text>
+      </g>
+      <g transform="translate(1404 285)">
+        <circle r="33" fill="#dce8da"/>
+        <path d="M-17-14h34v28h-34zM-10 0l7 7 14-15" fill="none" stroke="#2e7d5b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <text y="76" font-size="22" font-weight="800" fill="#243129">5 · Deliver</text>
+        <text y="110" font-size="17" fill="#536058">Dataset row first</text>
+        <text y="136" font-size="17" fill="#536058">result-found atomically</text>
+      </g>
+    </g>
+
+    <g stroke="#2e7d5b" stroke-width="4" fill="none" marker-end="url(#arrow)">
+      <path d="M318 355h50"/>
+      <path d="M620 355h50"/>
+      <path d="M922 355h50"/>
+      <path d="M1224 355h50"/>
+    </g>
+
+    <g transform="translate(80 548)">
+      <rect width="1010" height="256" rx="28" fill="#243129"/>
+      <text x="36" y="53" font-size="21" font-weight="800" fill="#e5ad48">SUCCESS PATH</text>
+      <text x="36" y="101" font-size="31" font-weight="800" fill="#fffdf8">One URL produces one row and one paid event</text>
+      <text x="36" y="143" font-size="21" fill="#dce8da">The row includes score, grade, entity facts, gaps, contradictions,</text>
+      <text x="36" y="177" font-size="21" fill="#dce8da">fixes, evidence paths, source URL, HTTP status, and timestamp.</text>
+      <g transform="translate(36 204)">
+        <rect width="276" height="34" rx="17" fill="#2e7d5b"/>
+        <text x="138" y="23" text-anchor="middle" font-size="16" font-weight="800" fill="#fffdf8">DATASET = DELIVERED = BILLED</text>
+      </g>
+    </g>
+
+    <g transform="translate(1120 548)">
+      <rect width="400" height="256" rx="28" fill="#fffdf8" stroke="#dfd4c5" stroke-width="2"/>
+      <text x="32" y="53" font-size="21" font-weight="800" fill="#a34b2b">FREE DIAGNOSTIC PATH</text>
+      <text x="32" y="99" font-size="24" font-weight="800" fill="#243129">Denied, unsafe, timed out,</text>
+      <text x="32" y="132" font-size="24" font-weight="800" fill="#243129">or over budget?</text>
+      <text x="32" y="176" font-size="19" fill="#536058">Bounded reason in KVS QUARANTINE</text>
+      <text x="32" y="208" font-size="19" fill="#536058">No response body · no paid event</text>
+      <circle cx="350" cy="205" r="22" fill="#f2dccd"/>
+      <path d="M340 205h20" stroke="#a34b2b" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <text x="80" y="860" font-size="20" font-weight="650" fill="#536058">Deterministic static-HTML audit · LIMITED_PERMISSIONS · no browser, proxy, AI service, or child Actor</text>
+  </g>
+</svg>
