@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AI crawler policy drift becomes a marketer action feed</title>
+  <desc id="desc">Baseline and current crawler-policy evidence flow through a deterministic comparison into critical, warning, and information actions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="0.55" stop-color="#10213a"/><stop offset="1" stop-color="#171333"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#42e8e0"/><stop offset="1" stop-color="#48a8ff"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9f78ff"/><stop offset="1" stop-color="#6257e8"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#000" flood-opacity=".34"/></filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="900" rx="44" fill="url(#bg)"/>
+  <circle cx="148" cy="154" r="210" fill="#27d9d1" opacity=".07"/>
+  <circle cx="1452" cy="734" r="290" fill="#8b68ff" opacity=".09"/>
+  <text x="96" y="104" fill="#6ef4eb" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="5">AI CRAWLER POLICY CHANGE ALERT FEED</text>
+  <text x="96" y="174" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="50" font-weight="750">Know what changed. Route the right action.</text>
+  <text x="96" y="219" fill="#a9bad1" font-family="Inter,Arial,sans-serif" font-size="25">Deterministic policy drift for SEO, GEO, AEO, brand, and content teams</text>
+
+  <g filter="url(#shadow)">
+    <rect x="96" y="286" width="390" height="424" rx="28" fill="#0d1a2d" stroke="#2b4767" stroke-width="2"/>
+    <rect x="514" y="286" width="390" height="424" rx="28" fill="#0d1a2d" stroke="#4b3f78" stroke-width="2"/>
+    <rect x="1010" y="286" width="494" height="424" rx="28" fill="#101b2f" stroke="#47728b" stroke-width="2"/>
+  </g>
+  <circle cx="138" cy="334" r="14" fill="#47d8d1"/><text x="168" y="344" fill="#d9f8f5" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">BASELINE</text>
+  <text x="138" y="382" fill="#7893ad" font-family="ui-monospace,Menlo,monospace" font-size="17">2026-08-24 · result 7cc3…</text>
+  <circle cx="556" cy="334" r="14" fill="#9f78ff"/><text x="586" y="344" fill="#ede7ff" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">CURRENT</text>
+  <text x="556" y="382" fill="#9288bd" font-family="ui-monospace,Menlo,monospace" font-size="17">2026-08-31 · result d18a…</text>
+  <g font-family="Inter,Arial,sans-serif" font-size="20">
+    <rect x="132" y="422" width="318" height="62" rx="14" fill="#132a38"/><text x="158" y="461" fill="#b9fff6">Google-Extended</text><text x="406" y="461" text-anchor="end" fill="#54e2d9">ALLOW</text>
+    <rect x="132" y="500" width="318" height="62" rx="14" fill="#132a38"/><text x="158" y="539" fill="#b9fff6">GPTBot</text><text x="406" y="539" text-anchor="end" fill="#54e2d9">ALLOW</text>
+    <rect x="132" y="578" width="318" height="62" rx="14" fill="#132a38"/><text x="158" y="617" fill="#b9fff6">llms.txt</text><text x="406" y="617" text-anchor="end" fill="#54e2d9">FOUND</text>
+    <rect x="550" y="422" width="318" height="62" rx="14" fill="#302039"/><text x="576" y="461" fill="#f7dce8">Google-Extended</text><text x="824" y="461" text-anchor="end" fill="#ff668f">BLOCK</text>
+    <rect x="550" y="500" width="318" height="62" rx="14" fill="#2e283f"/><text x="576" y="539" fill="#eadfff">GPTBot</text><text x="824" y="539" text-anchor="end" fill="#a88cff">BLOCK</text>
+    <rect x="550" y="578" width="318" height="62" rx="14" fill="#302039"/><text x="576" y="617" fill="#f7dce8">llms.txt</text><text x="824" y="617" text-anchor="end" fill="#ff668f">REMOVED</text>
+  </g>
+
+  <path d="M925 486h57" stroke="url(#cyan)" stroke-width="8" stroke-linecap="round"/><path d="m971 470 21 16-21 16" fill="none" stroke="#53dfdf" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <text x="1257" y="342" text-anchor="middle" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700">ONE ACTION-READY FEED</text>
+  <g font-family="Inter,Arial,sans-serif">
+    <rect x="1052" y="385" width="410" height="79" rx="18" fill="#3b1628" stroke="#ff527f"/><circle cx="1095" cy="424" r="11" fill="#ff527f"/><text x="1122" y="417" fill="#ff9bb5" font-size="17" font-weight="700">CRITICAL</text><text x="1122" y="444" fill="#fff" font-size="20">Page SEO owner</text>
+    <rect x="1052" y="482" width="410" height="79" rx="18" fill="#352c18" stroke="#ffc857"/><circle cx="1095" cy="521" r="11" fill="#ffc857"/><text x="1122" y="514" fill="#ffe3a0" font-size="17" font-weight="700">WARNING</text><text x="1122" y="541" fill="#fff" font-size="20">Queue for review</text>
+    <rect x="1052" y="579" width="410" height="79" rx="18" fill="#15303a" stroke="#55dbe6"/><circle cx="1095" cy="618" r="11" fill="#55dbe6"/><text x="1122" y="611" fill="#a8f7fb" font-size="17" font-weight="700">INFO</text><text x="1122" y="638" fill="#fff" font-size="20">Log the recovery</text>
+  </g>
+  <g transform="translate(96 770)">
+    <rect width="1408" height="72" rx="22" fill="#0d1b2c" stroke="#263c55"/>
+    <text x="46" y="44" fill="#a9bad1" font-family="Inter,Arial,sans-serif" font-size="21">1–10 site pairs</text><circle cx="260" cy="36" r="4" fill="#4eddd7"/>
+    <text x="290" y="44" fill="#a9bad1" font-family="Inter,Arial,sans-serif" font-size="21">stable IDs</text><circle cx="464" cy="36" r="4" fill="#4eddd7"/>
+    <text x="494" y="44" fill="#a9bad1" font-family="Inter,Arial,sans-serif" font-size="21">human review routes</text><circle cx="760" cy="36" r="4" fill="#4eddd7"/>
+    <text x="790" y="44" fill="#a9bad1" font-family="Inter,Arial,sans-serif" font-size="21">Make · n8n · webhooks</text>
+    <rect x="1120" y="17" width="245" height="38" rx="19" fill="url(#violet)"/><text x="1242" y="43" text-anchor="middle" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">NO LLM KEY</text>
+  </g>
+</svg>

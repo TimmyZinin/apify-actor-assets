@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Fail-closed policy change workflow</title>
+  <desc id="desc">Completed snapshots are validated, projected, compared, routed, and delivered once, with free bounded diagnostics on failure.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071521"/><stop offset="1" stop-color="#151431"/></linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#42e8df"/><stop offset=".55" stop-color="#55a9ff"/><stop offset="1" stop-color="#a070ff"/></linearGradient>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".38"/></filter>
+  </defs>
+  <rect width="1600" height="900" rx="44" fill="url(#bg2)"/>
+  <text x="100" y="106" fill="#68efe7" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="5">FAIL-CLOSED WORKFLOW</text>
+  <text x="100" y="176" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="48" font-weight="750">From completed evidence to one trusted feed</text>
+  <text x="100" y="220" fill="#a8b8cf" font-family="Inter,Arial,sans-serif" font-size="24">No live crawl · no stored baseline · no model call · no automatic policy edit</text>
+
+  <path d="M225 454H1375" stroke="#203852" stroke-width="9" stroke-linecap="round"/>
+  <path d="M225 454H1375" stroke="url(#flow)" stroke-width="5" stroke-linecap="round" stroke-dasharray="12 18"/>
+  <g filter="url(#sh)" font-family="Inter,Arial,sans-serif">
+    <g transform="translate(90 320)"><rect width="270" height="270" rx="32" fill="#0d2630" stroke="#3de3d8" stroke-width="2"/><circle cx="135" cy="73" r="37" fill="#153e47" stroke="#53e7de" stroke-width="3"/><path d="M116 73h38M135 54v38" stroke="#82fff6" stroke-width="7" stroke-linecap="round"/><text x="135" y="144" text-anchor="middle" fill="#fff" font-size="25" font-weight="700">PAIR</text><text x="135" y="181" text-anchor="middle" fill="#a9ced2" font-size="19">baseline + current</text><text x="135" y="213" text-anchor="middle" fill="#a9ced2" font-size="19">completed rows</text><rect x="53" y="234" width="164" height="25" rx="12" fill="#17444d"/><text x="135" y="252" text-anchor="middle" fill="#86f4ed" font-size="14">1–10 WEBSITES</text></g>
+    <g transform="translate(383 320)"><rect width="270" height="270" rx="32" fill="#101f35" stroke="#4ba8f5" stroke-width="2"/><path d="M135 37l45 17v34c0 31-18 57-45 69-27-12-45-38-45-69V54z" fill="#173f61" stroke="#6ac1ff" stroke-width="3"/><path d="m113 91 15 15 31-36" fill="none" stroke="#8bd2ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><text x="135" y="179" text-anchor="middle" fill="#fff" font-size="25" font-weight="700">VALIDATE</text><text x="135" y="211" text-anchor="middle" fill="#abc8de" font-size="18">identity · time · size</text><text x="135" y="239" text-anchor="middle" fill="#abc8de" font-size="18">price · budget · storage</text></g>
+    <g transform="translate(676 320)"><rect width="270" height="270" rx="32" fill="#171d3a" stroke="#8175ff" stroke-width="2"/><circle cx="104" cy="82" r="34" fill="#28305d"/><circle cx="166" cy="82" r="34" fill="#342b5d"/><path d="M108 82h54" stroke="#b0a8ff" stroke-width="7" stroke-linecap="round"/><path d="m149 69 16 13-16 13" fill="none" stroke="#b0a8ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><text x="135" y="158" text-anchor="middle" fill="#fff" font-size="25" font-weight="700">COMPARE</text><text x="135" y="194" text-anchor="middle" fill="#c1bee8" font-size="18">fixed 16-bot catalog</text><text x="135" y="222" text-anchor="middle" fill="#c1bee8" font-size="18">documents + heartbeat</text><rect x="52" y="238" width="166" height="22" rx="11" fill="#2c2956"/><text x="135" y="254" text-anchor="middle" fill="#cec8ff" font-size="13">BYTE-DETERMINISTIC</text></g>
+    <g transform="translate(969 320)"><rect width="270" height="270" rx="32" fill="#211a36" stroke="#ae74ff" stroke-width="2"/><path d="M94 61h82M94 84h60M94 107h72" stroke="#c9a4ff" stroke-width="7" stroke-linecap="round"/><circle cx="185" cy="61" r="7" fill="#ff5d8e"/><circle cx="165" cy="84" r="7" fill="#ffc857"/><circle cx="177" cy="107" r="7" fill="#5be0e8"/><text x="135" y="165" text-anchor="middle" fill="#fff" font-size="25" font-weight="700">ROUTE</text><text x="135" y="201" text-anchor="middle" fill="#d1bce4" font-size="18">critical · warning · info</text><text x="135" y="229" text-anchor="middle" fill="#d1bce4" font-size="18">human action owner</text><rect x="49" y="244" width="172" height="20" rx="10" fill="#392553"/><text x="135" y="259" text-anchor="middle" fill="#e0c7ff" font-size="12">safeToAutomate = false</text></g>
+    <g transform="translate(1262 320)"><rect width="270" height="270" rx="32" fill="#251b39" stroke="#c279ff" stroke-width="2"/><rect x="76" y="49" width="118" height="90" rx="16" fill="#382455" stroke="#d4a1ff"/><path d="M99 77h72M99 96h72M99 115h48" stroke="#e2c5ff" stroke-width="6" stroke-linecap="round"/><text x="135" y="177" text-anchor="middle" fill="#fff" font-size="25" font-weight="700">DELIVER ONCE</text><text x="135" y="212" text-anchor="middle" fill="#d6c1e4" font-size="18">one Dataset bundle</text><text x="135" y="240" text-anchor="middle" fill="#d6c1e4" font-size="18">one result-found event</text></g>
+  </g>
+
+  <g transform="translate(100 674)" font-family="Inter,Arial,sans-serif">
+    <rect width="1400" height="125" rx="28" fill="#0c1a2a" stroke="#30445f"/>
+    <circle cx="60" cy="62" r="27" fill="#321e30" stroke="#ff668d"/><path d="M48 50l24 24m0-24L48 74" stroke="#ff8caa" stroke-width="6" stroke-linecap="round"/>
+    <text x="108" y="54" fill="#fff" font-size="23" font-weight="700">Any pre-delivery failure stops before the paid feed</text>
+    <text x="108" y="86" fill="#a7b7cb" font-size="19">A bounded free OUTPUT receipt names the stage; no result-found retry, no partial Dataset row.</text>
+    <rect x="1090" y="34" width="250" height="56" rx="28" fill="#15313b" stroke="#42dcd5"/><text x="1215" y="69" text-anchor="middle" fill="#96fff8" font-size="18" font-weight="700">READY → PUSH ONCE</text>
+  </g>
+</svg>
