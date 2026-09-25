@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" font-family="Helvetica, Arial, sans-serif">
+<rect width="1600" height="900" fill="#0b1b24"/>
+<circle cx="1540" cy="60" r="260" fill="#c86cf0" fill-opacity=".07"/>
+<circle cx="60" cy="860" r="200" fill="#c86cf0" fill-opacity=".06"/>
+<text x="80" y="118" font-size="60" font-weight="700" fill="#ffffff">Wildberries Scraper</text>
+<text x="80" y="176" font-size="29" fill="#a9c1c7">Turn keywords into Wildberries product rows: price in RUB, brand, seller, rating.</text>
+<rect x="80" y="240" width="440" height="420" rx="22" fill="#10262f" stroke="#5cc8ff" stroke-width="3"/>
+<text x="114" y="302" font-size="27" font-weight="700" fill="#5cc8ff" letter-spacing="1">BUYER INPUT</text>
+<rect x="114" y="340" width="372" height="62" rx="10" fill="#1b3540"/>
+<text x="136" y="380" font-size="25" fill="#e6f0f2">&quot;iphone&quot; · &quot;кроссовки&quot;</text>
+<circle cx="124" cy="436" r="8" fill="#5cc8ff"/>
+<text x="146" y="444" font-size="26" fill="#e6f0f2">Keywords, one per line</text>
+<circle cx="124" cy="490" r="8" fill="#5cc8ff"/>
+<text x="146" y="498" font-size="26" fill="#e6f0f2">Sort: popular, price, rating</text>
+<circle cx="124" cy="544" r="8" fill="#5cc8ff"/>
+<text x="146" y="552" font-size="26" fill="#e6f0f2">Max products per keyword</text>
+<text x="114" y="630" font-size="21" fill="#8fa9b0">No Wildberries account or API key</text>
+<path d="M530 450 H566" stroke="#7d97a0" stroke-width="4"/><path d="M558 438 L580 450 L558 462" fill="none" stroke="#7d97a0" stroke-width="4"/>
+<rect x="580" y="240" width="440" height="420" rx="22" fill="#10262f" stroke="#c86cf0" stroke-width="3"/>
+<text x="614" y="302" font-size="27" font-weight="700" fill="#c86cf0" letter-spacing="1">LIVE SEARCH RESULTS</text>
+<circle cx="624" cy="332" r="8" fill="#c86cf0"/>
+<text x="646" y="340" font-size="26" fill="#e6f0f2">wildberries.ru search</text>
+<circle cx="624" cy="386" r="8" fill="#c86cf0"/>
+<text x="646" y="394" font-size="26" fill="#e6f0f2">~100 products per page</text>
+<circle cx="624" cy="440" r="8" fill="#c86cf0"/>
+<text x="646" y="448" font-size="26" fill="#e6f0f2">Site check passed once</text>
+<circle cx="624" cy="494" r="8" fill="#c86cf0"/>
+<text x="646" y="502" font-size="26" fill="#e6f0f2">Official image CDN map</text>
+<text x="614" y="630" font-size="21" fill="#8fa9b0">Public catalogue data only</text>
+<path d="M1030 450 H1066" stroke="#7d97a0" stroke-width="4"/><path d="M1058 438 L1080 450 L1058 462" fill="none" stroke="#7d97a0" stroke-width="4"/>
+<rect x="1080" y="240" width="440" height="420" rx="22" fill="#10262f" stroke="#e39cf5" stroke-width="3"/>
+<text x="1114" y="302" font-size="27" font-weight="700" fill="#e39cf5" letter-spacing="1">PRODUCT ROWS</text>
+<circle cx="1124" cy="332" r="8" fill="#e39cf5"/>
+<text x="1146" y="340" font-size="26" fill="#e6f0f2">Price and old price, RUB</text>
+<circle cx="1124" cy="386" r="8" fill="#e39cf5"/>
+<text x="1146" y="394" font-size="26" fill="#e6f0f2">Brand and seller</text>
+<circle cx="1124" cy="440" r="8" fill="#e39cf5"/>
+<text x="1146" y="448" font-size="26" fill="#e6f0f2">Rating and review count</text>
+<circle cx="1124" cy="494" r="8" fill="#e39cf5"/>
+<text x="1146" y="502" font-size="26" fill="#e6f0f2">SKU, image, product URL</text>
+<text x="1114" y="630" font-size="21" fill="#8fa9b0">Empty searches = free error rows</text>
+<rect x="80" y="700" width="1440" height="96" rx="16" fill="#10262f" stroke="#2b4b55" stroke-width="2"/>
+<text x="110" y="742" font-size="28" font-weight="700" fill="#ffffff">For Russia marketplace sellers · brands · price monitoring · assortment analytics</text>
+<text x="110" y="778" font-size="21" fill="#8fa9b0">Prices are the public search result at run time for the default region, not personal or wallet prices.</text>
+<text x="1520" y="860" font-size="19" fill="#7d97a0" text-anchor="end" letter-spacing="1">ZININ DATA PRODUCTS · APIFY</text>
+</svg>
