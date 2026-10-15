@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">One paid path from Input to Dataset then named charge</title>
+  <desc id="desc">Validated input becomes one complete summary, one exact default Dataset item, and one named result-found event.</desc>
+  <rect width="1600" height="900" fill="#d71920"/>
+  <rect x="45" y="45" width="1510" height="810" rx="42" fill="#d71920" stroke="#fff" stroke-width="12"/>
+  <text x="105" y="145" font-family="Arial,sans-serif" font-size="53" font-weight="700" fill="#fff">One result. One Dataset path. One result event.</text>
+  <text x="105" y="200" font-family="Arial,sans-serif" font-size="25" fill="#fff">One result-found event on success; startup charged separately</text>
+  <g font-family="Arial,sans-serif">
+    <g fill="#fff">
+      <rect x="105" y="320" width="280" height="250" rx="32"/>
+      <rect x="475" y="320" width="280" height="250" rx="32"/>
+      <rect x="845" y="320" width="280" height="250" rx="32"/>
+      <rect x="1215" y="320" width="280" height="250" rx="32"/>
+    </g>
+    <g fill="#d71920" text-anchor="middle">
+      <text x="245" y="405" font-size="34" font-weight="700">INPUT</text><text x="245" y="458" font-size="23">7 closed fields</text><text x="245" y="497" font-size="23">pricing + budget</text>
+      <text x="615" y="405" font-size="34" font-weight="700">SUMMARY</text><text x="615" y="458" font-size="23">PASS / WARN / FAIL</text><text x="615" y="497" font-size="23">schema + byte cap</text>
+      <text x="985" y="405" font-size="34" font-weight="700">DATASET</text><text x="985" y="458" font-size="23">exact default ID</text><text x="985" y="497" font-size="23">zero → one item</text>
+      <text x="1355" y="405" font-size="34" font-weight="700">EVENT</text><text x="1355" y="458" font-size="23">result-found</text><text x="1355" y="497" font-size="23">named 0 → 1</text>
+    </g>
+    <g stroke="#fff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M400 445h55"/><path d="m438 420 32 25-32 25"/>
+      <path d="M770 445h55"/><path d="m808 420 32 25-32 25"/>
+      <path d="M1140 445h55"/><path d="m1178 420 32 25-32 25"/>
+    </g>
+    <rect x="330" y="665" width="940" height="90" rx="45" fill="#fff"/>
+    <text x="800" y="720" text-anchor="middle" font-size="28" font-weight="700" fill="#d71920">No retry after ambiguity • no replacement row • no KVS receipt</text>
+  </g>
+</svg>

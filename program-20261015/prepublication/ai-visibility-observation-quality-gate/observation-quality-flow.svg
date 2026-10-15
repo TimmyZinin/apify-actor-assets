@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Observation batch to one PASS WARN FAIL summary</title>
+  <desc id="desc">Normalized observations enter deterministic conflict, duplicate and time checks and become one closed quality summary.</desc>
+  <rect width="1600" height="900" fill="#fff"/>
+  <rect x="45" y="45" width="1510" height="810" rx="42" fill="#fff" stroke="#d71920" stroke-width="12"/>
+  <text x="110" y="135" font-family="Arial,sans-serif" font-size="53" font-weight="700" fill="#d71920">Observation batch → one quality decision</text>
+  <text x="110" y="190" font-family="Arial,sans-serif" font-size="25" fill="#d71920">1–250 supplied observations • deterministic checks • no model queries</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="110" y="255" width="340" height="475" rx="30" fill="#d71920"/>
+    <text x="155" y="325" font-size="34" font-weight="700" fill="#fff">INPUT BATCH</text>
+    <g fill="#fff">
+      <rect x="155" y="370" width="250" height="48" rx="24"/><rect x="155" y="435" width="250" height="48" rx="24"/>
+      <rect x="155" y="500" width="250" height="48" rx="24"/><rect x="155" y="565" width="250" height="48" rx="24"/>
+      <rect x="155" y="630" width="250" height="48" rx="24"/>
+    </g>
+    <g fill="#d71920" font-size="21" font-weight="700">
+      <text x="185" y="402">Observation 1</text><text x="185" y="467">Observation 2</text>
+      <text x="185" y="532">Observation 3</text><text x="185" y="597">Observation 4</text><text x="185" y="662">Observation 5</text>
+    </g>
+    <path d="M485 493h120" stroke="#d71920" stroke-width="18" stroke-linecap="round"/><path d="m580 455 48 38-48 38" fill="none" stroke="#d71920" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="660" y="255" width="410" height="475" rx="30" fill="#fff" stroke="#d71920" stroke-width="8"/>
+    <text x="725" y="325" font-size="34" font-weight="700" fill="#d71920">QUALITY CHECKS</text>
+    <g font-size="24" fill="#d71920">
+      <circle cx="726" cy="395" r="15" fill="#d71920"/><text x="760" y="404">Conflicting mention states</text>
+      <circle cx="726" cy="475" r="15" fill="#d71920"/><text x="760" y="484">Future timestamps</text>
+      <circle cx="726" cy="555" r="15" fill="#d71920"/><text x="760" y="564">Exact duplicates</text>
+      <circle cx="726" cy="635" r="15" fill="#d71920"/><text x="760" y="644">Stale timestamps</text>
+    </g>
+    <path d="M1105 493h120" stroke="#d71920" stroke-width="18" stroke-linecap="round"/><path d="m1200 455 48 38-48 38" fill="none" stroke="#d71920" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="1280" y="255" width="210" height="475" rx="30" fill="#d71920"/>
+    <text x="1334" y="338" font-size="31" font-weight="700" fill="#fff">ONE ROW</text>
+    <rect x="1322" y="390" width="126" height="78" rx="18" fill="#fff"/><text x="1348" y="442" font-size="31" font-weight="700" fill="#d71920">PASS</text>
+    <rect x="1322" y="490" width="126" height="78" rx="18" fill="#fff"/><text x="1343" y="542" font-size="31" font-weight="700" fill="#d71920">WARN</text>
+    <rect x="1322" y="590" width="126" height="78" rx="18" fill="#fff"/><text x="1350" y="642" font-size="31" font-weight="700" fill="#d71920">FAIL</text>
+    <text x="110" y="805" font-size="25" font-weight="700" fill="#d71920">Exact counts • fixed actions • up to five ordered examples • 64 KiB cap</text>
+  </g>
+</svg>
