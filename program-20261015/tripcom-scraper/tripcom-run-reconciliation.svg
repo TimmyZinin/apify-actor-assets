@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#0B1930"/>
+<g font-family="Arial, sans-serif">
+<text x="60" y="96" font-size="45" font-weight="bold" fill="#FFFFFF">Trip.com: reconcile the run before comparing hotels</text>
+<text x="60" y="152" font-size="25" fill="#BCCDDD">Successful status alone does not establish complete or current source coverage.</text>
+<rect x="60" y="234" width="440" height="400" rx="20" fill="#142F4A" stroke="#254D6B" stroke-width="2"/>
+<text x="84" y="294" font-size="23" font-weight="bold" fill="#4DE1C1">REVIEW THE RUN</text>
+<text x="84" y="360" font-size="23" fill="#FFFFFF">Keep run ID and build ID</text>
+<text x="84" y="412" font-size="23" fill="#FFFFFF">Keep original INPUT</text>
+<text x="84" y="464" font-size="23" fill="#FFFFFF">Read every Dataset page</text>
+<text x="84" y="516" font-size="23" fill="#FFFFFF">FAILED runs can have rows</text>
+<path d="M514 434 H555 M543 422 L555 434 L543 446" fill="none" stroke="#4DE1C1" stroke-width="5"/>
+<rect x="580" y="234" width="440" height="400" rx="20" fill="#142F4A" stroke="#254D6B" stroke-width="2"/>
+<text x="604" y="294" font-size="23" font-weight="bold" fill="#4DE1C1">SEPARATE OUTCOMES</text>
+<text x="604" y="360" font-size="23" fill="#FFFFFF">Hotels: named, without error</text>
+<text x="604" y="412" font-size="23" fill="#FFFFFF">Diagnostics: inspect error</text>
+<text x="604" y="464" font-size="23" fill="#FFFFFF">Start events can still apply</text>
+<text x="604" y="516" font-size="23" fill="#FFFFFF">Dataset items ≠ hotel count</text>
+<path d="M1034 434 H1075 M1063 422 L1075 434 L1063 446" fill="none" stroke="#4DE1C1" stroke-width="5"/>
+<rect x="1100" y="234" width="440" height="400" rx="20" fill="#142F4A" stroke="#254D6B" stroke-width="2"/>
+<text x="1124" y="294" font-size="23" font-weight="bold" fill="#4DE1C1">RESOLVE UNCERTAINTY</text>
+<text x="1124" y="360" font-size="23" fill="#FFFFFF">Unknown write: stop</text>
+<text x="1124" y="412" font-size="23" fill="#FFFFFF">Check rows + charged events</text>
+<text x="1124" y="464" font-size="23" fill="#FFFFFF">Reconcile before a new run</text>
+<text x="1124" y="516" font-size="23" fill="#FFFFFF">New runs have new charges</text>
+<rect x="60" y="688" width="1480" height="144" rx="16" fill="#17374F"/>
+<text x="84" y="741" font-size="26" font-weight="bold" fill="#FFFFFF">A local timeout does not cancel an Apify run.</text>
+<text x="84" y="791" font-size="23" fill="#BCCDDD">After uncertainty, inspect the same run and its charges before considering another launch.</text>
+</g></svg>

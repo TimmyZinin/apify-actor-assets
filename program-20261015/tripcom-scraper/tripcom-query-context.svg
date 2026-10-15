@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#0B1930"/>
+<g font-family="Arial, sans-serif">
+<text x="60" y="96" font-size="45" font-weight="bold" fill="#FFFFFF">Trip.com: keep the search context consistent</text>
+<text x="60" y="152" font-size="25" fill="#BCCDDD">Destination or list URL → effective options → hotel-card observations</text>
+<rect x="60" y="234" width="440" height="400" rx="20" fill="#142F4A" stroke="#254D6B" stroke-width="2"/>
+<text x="84" y="294" font-size="23" font-weight="bold" fill="#4DE1C1">CHOOSE A SEARCH</text>
+<text x="84" y="360" font-size="23" fill="#FFFFFF">Destination names or list URLs</text>
+<text x="84" y="412" font-size="23" fill="#FFFFFF">Check-in / check-out</text>
+<text x="84" y="464" font-size="23" fill="#FFFFFF">Adults / currency / row limit</text>
+<text x="84" y="516" font-size="23" fill="#FFFFFF">Console defaults also apply</text>
+<path d="M514 434 H555 M543 422 L555 434 L543 446" fill="none" stroke="#4DE1C1" stroke-width="5"/>
+<rect x="580" y="234" width="440" height="400" rx="20" fill="#142F4A" stroke="#254D6B" stroke-width="2"/>
+<text x="604" y="294" font-size="23" font-weight="bold" fill="#4DE1C1">EFFECTIVE OPTIONS</text>
+<text x="604" y="360" font-size="23" fill="#FFFFFF">Input options override URL</text>
+<text x="604" y="412" font-size="23" fill="#FFFFFF">Fallback: URL, then defaults</text>
+<text x="604" y="464" font-size="23" fill="#FFFFFF">Known query keys match rows</text>
+<text x="604" y="516" font-size="23" fill="#FFFFFF">Keep other filters in INPUT</text>
+<path d="M1034 434 H1075 M1063 422 L1075 434 L1063 446" fill="none" stroke="#4DE1C1" stroke-width="5"/>
+<rect x="1100" y="234" width="440" height="400" rx="20" fill="#142F4A" stroke="#254D6B" stroke-width="2"/>
+<text x="1124" y="294" font-size="23" font-weight="bold" fill="#4DE1C1">OBSERVE HOTEL CARDS</text>
+<text x="1124" y="360" font-size="23" fill="#FFFFFF">ID / name / card price</text>
+<text x="1124" y="412" font-size="23" fill="#FFFFFF">Rating / reviews / area</text>
+<text x="1124" y="464" font-size="23" fill="#FFFFFF">Image or URL can be missing</text>
+<text x="1124" y="516" font-size="23" fill="#FFFFFF">No checkout verification</text>
+<rect x="60" y="688" width="1480" height="144" rx="16" fill="#17374F"/>
+<text x="84" y="741" font-size="26" font-weight="bold" fill="#FFFFFF">A hotel-card observation is not a guaranteed bookable offer.</text>
+<text x="84" y="791" font-size="23" fill="#BCCDDD">Rows retain stay / adults / currency; save INPUT and remaining URL filters separately.</text>
+</g></svg>
