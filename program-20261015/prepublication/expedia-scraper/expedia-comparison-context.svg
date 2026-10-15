@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#0B1823"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="60" y="95" font-size="54" font-weight="700" fill="#FFFFFF">Compare snapshots with context</text>
+<text x="60" y="153" font-size="29" fill="#BDCCD6">Keep uncertain extraction separate from your hotel price comparisons.</text>
+<rect x="60" y="220" width="440" height="470" rx="20" fill="#142733" stroke="#72D1FF" stroke-width="3"/>
+<text x="88" y="282" font-size="24" font-weight="700" fill="#72D1FF">MATCH THE SEARCH</text>
+<text x="88" y="355" font-size="27" fill="#FFFFFF">Same explicit stay dates</text>
+<text x="88" y="417" font-size="27" fill="#FFFFFF">Same adult count</text>
+<text x="88" y="479" font-size="27" fill="#FFFFFF">Same currency</text>
+<text x="88" y="541" font-size="27" fill="#FFFFFF">Match by hotel ID</text>
+<text x="88" y="647" font-size="22" fill="#BDCCD6">Keep run ID and timestamp</text>
+<path d="M516 450h46m-14-14 14 14-14 14" fill="none" stroke="#BDCCD6" stroke-width="4"/>
+<rect x="580" y="220" width="440" height="470" rx="20" fill="#142733" stroke="#FFD75E" stroke-width="3"/>
+<text x="608" y="282" font-size="24" font-weight="700" fill="#FFD75E">CHECK THE OUTCOME</text>
+<text x="608" y="355" font-size="27" fill="#FFFFFF">Inspect error rows</text>
+<text x="608" y="417" font-size="27" fill="#FFFFFF">Check budget / block</text>
+<text x="608" y="479" font-size="27" fill="#FFFFFF">Reconcile uncertain writes</text>
+<text x="608" y="541" font-size="27" fill="#FFFFFF">Do not auto-replay a run</text>
+<text x="608" y="647" font-size="22" fill="#BDCCD6">A missing hotel stays unknown</text>
+<path d="M1036 450h46m-14-14 14 14-14 14" fill="none" stroke="#BDCCD6" stroke-width="4"/>
+<rect x="1100" y="220" width="440" height="470" rx="20" fill="#142733" stroke="#A9E4BC" stroke-width="3"/>
+<text x="1128" y="282" font-size="24" font-weight="700" fill="#A9E4BC">COMPARE OBSERVATIONS</text>
+<text x="1128" y="355" font-size="27" fill="#FFFFFF">Nightly vs total figure</text>
+<text x="1128" y="417" font-size="27" fill="#FFFFFF">Guest rating / review count</text>
+<text x="1128" y="479" font-size="27" fill="#FFFFFF">Source coverage may vary</text>
+<text x="1128" y="541" font-size="27" fill="#FFFFFF">Review changes manually</text>
+<text x="1128" y="647" font-size="22" fill="#BDCCD6">No automatic booking verdict</text>
+<text x="60" y="782" font-size="28" fill="#FFFFFF">Use a new snapshot when the quote or comparison needs fresh evidence.</text>
+<text x="60" y="834" font-size="25" fill="#BDCCD6">The Actor creates observations; your downstream comparison joins them.</text>
+</g></svg>
