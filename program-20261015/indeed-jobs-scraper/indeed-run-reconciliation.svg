@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#0B1823"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="60" y="95" font-size="51" font-weight="700" fill="#FFFFFF">Indeed: reconcile before a repeat</text>
+<text x="60" y="153" font-size="28" fill="#BDCCD6">A local timeout does not cancel the server run. Preserve its exact ID.</text>
+<rect x="60" y="220" width="440" height="470" rx="20" fill="#142733" stroke="#72D1FF" stroke-width="3"/>
+<text x="88" y="282" font-size="24" font-weight="700" fill="#72D1FF">RUN RECORD</text>
+<text x="88" y="355" font-size="26" fill="#FFFFFF">Save the returned run ID</text>
+<text x="88" y="417" font-size="26" fill="#FFFFFF">Check the same run status</text>
+<text x="88" y="479" font-size="26" fill="#FFFFFF">Keep the build identity</text>
+<text x="88" y="541" font-size="26" fill="#FFFFFF">Read OUTPUT if available</text>
+<text x="88" y="647" font-size="22" fill="#BDCCD6">SUCCEEDED can mean blocked</text>
+<path d="M516 450h46m-14-14 14 14-14 14" fill="none" stroke="#BDCCD6" stroke-width="4"/>
+<rect x="580" y="220" width="440" height="470" rx="20" fill="#142733" stroke="#FFD75E" stroke-width="3"/>
+<text x="608" y="282" font-size="24" font-weight="700" fill="#FFD75E">DATASET</text>
+<text x="608" y="355" font-size="26" fill="#FFFFFF">Keep ok / partial rows</text>
+<text x="608" y="417" font-size="26" fill="#FFFFFF">Retain diagnostic rows</text>
+<text x="608" y="479" font-size="26" fill="#FFFFFF">Count partial from rows</text>
+<text x="608" y="541" font-size="26" fill="#FFFFFF">Preserve raw observations</text>
+<text x="608" y="647" font-size="22" fill="#BDCCD6">Item count is not paid jobs</text>
+<path d="M1036 450h46m-14-14 14 14-14 14" fill="none" stroke="#BDCCD6" stroke-width="4"/>
+<rect x="1100" y="220" width="440" height="470" rx="20" fill="#142733" stroke="#A9E4BC" stroke-width="3"/>
+<text x="1128" y="282" font-size="24" font-weight="700" fill="#A9E4BC">CHARGED EVENTS</text>
+<text x="1128" y="355" font-size="26" fill="#FFFFFF">Start fees can still apply</text>
+<text x="1128" y="417" font-size="26" fill="#FFFFFF">Inspect actual result events</text>
+<text x="1128" y="479" font-size="26" fill="#FFFFFF">Uncertain write? Reconcile</text>
+<text x="1128" y="541" font-size="26" fill="#FFFFFF">Then decide on a new run</text>
+<text x="1128" y="647" font-size="22" fill="#BDCCD6">A new run is a fresh paid read</text>
+<text x="60" y="782" font-size="28" fill="#FFFFFF">Local write guards do not provide a cross-run exactly-once ledger.</text>
+<text x="60" y="834" font-size="25" fill="#BDCCD6">No free-retry promise; no second-page advance on a repeat.</text>
+</g></svg>

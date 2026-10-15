@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#0B1823"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="60" y="95" font-size="51" font-weight="700" fill="#FFFFFF">Indeed: one search-page observation</text>
+<text x="60" y="153" font-size="28" fill="#BDCCD6">Keep the search context, parsed snippets and observation time together.</text>
+<rect x="60" y="220" width="440" height="470" rx="20" fill="#142733" stroke="#72D1FF" stroke-width="3"/>
+<text x="88" y="282" font-size="24" font-weight="700" fill="#72D1FF">INPUT</text>
+<text x="88" y="355" font-size="26" fill="#FFFFFF">Keyword and location</text>
+<text x="88" y="417" font-size="26" fill="#FFFFFF">maxItems: 1–50 jobs</text>
+<text x="88" y="479" font-size="26" fill="#FFFFFF">Finite charge / time limits</text>
+<text x="88" y="541" font-size="26" fill="#FFFFFF">Proxy configuration</text>
+<text x="88" y="647" font-size="22" fill="#BDCCD6">A repeat reads the first page</text>
+<path d="M516 450h46m-14-14 14 14-14 14" fill="none" stroke="#BDCCD6" stroke-width="4"/>
+<rect x="580" y="220" width="440" height="470" rx="20" fill="#142733" stroke="#FFD75E" stroke-width="3"/>
+<text x="608" y="282" font-size="24" font-weight="700" fill="#FFD75E">SEARCH PAGE</text>
+<text x="608" y="355" font-size="26" fill="#FFFFFF">Fixed indeed.com origin</text>
+<text x="608" y="417" font-size="26" fill="#FFFFFF">Browser + robots check</text>
+<text x="608" y="479" font-size="26" fill="#FFFFFF">Known decoy fingerprint</text>
+<text x="608" y="541" font-size="26" fill="#FFFFFF">Blocked / empty diagnostics</text>
+<text x="608" y="647" font-size="22" fill="#BDCCD6">Source access can fail</text>
+<path d="M1036 450h46m-14-14 14 14-14 14" fill="none" stroke="#BDCCD6" stroke-width="4"/>
+<rect x="1100" y="220" width="440" height="470" rx="20" fill="#142733" stroke="#A9E4BC" stroke-width="3"/>
+<text x="1128" y="282" font-size="24" font-weight="700" fill="#A9E4BC">OBSERVATIONS</text>
+<text x="1128" y="355" font-size="26" fill="#FFFFFF">Title, company, location</text>
+<text x="1128" y="417" font-size="26" fill="#FFFFFF">Salary / date text or null</text>
+<text x="1128" y="479" font-size="26" fill="#FFFFFF">Status and checkedAt</text>
+<text x="1128" y="541" font-size="26" fill="#FFFFFF">jobUrl is always null</text>
+<text x="1128" y="647" font-size="22" fill="#BDCCD6">No stable job identifier</text>
+<text x="60" y="782" font-size="28" fill="#FFFFFF">A search card is an observation, not a verified open vacancy.</text>
+<text x="60" y="834" font-size="25" fill="#BDCCD6">One search page; no pagination, job details or application links.</text>
+</g></svg>
