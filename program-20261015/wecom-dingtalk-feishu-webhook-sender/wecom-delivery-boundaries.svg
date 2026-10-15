@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#101D30"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#FFFFFF}.small{fill:#BBD1E6}</style>
+<text x="70" y="100" font-size="43" font-weight="700">Trace each message through three boundaries</text>
+<text class="small" x="70" y="158" font-size="26">Keep preview, platform acceptance and confirmed recording separate.</text>
+<rect x="70" y="235" width="460" height="440" rx="20" fill="#20364F"/>
+<rect x="70" y="235" width="460" height="9" fill="#39D9BA"/>
+<text x="95" y="300" font-size="25" font-weight="700">1  PREVIEW</text>
+<text x="95" y="375" font-size="21">Supplied rows + field template</text>
+<text x="95" y="439" font-size="21">WeCom / DingTalk / Feishu payloads</text>
+<text x="95" y="503" font-size="21">No webhook request</text>
+<text x="95" y="567" font-size="21">Zero result events; start fee applies</text>
+<rect x="570" y="235" width="460" height="440" rx="20" fill="#20364F"/>
+<rect x="570" y="235" width="460" height="9" fill="#39D9BA"/>
+<text x="595" y="300" font-size="25" font-weight="700">2  API ACCEPTANCE</text>
+<text x="595" y="375" font-size="21">HTTP success + platform code zero</text>
+<text x="595" y="439" font-size="21">One message / one webhook</text>
+<text x="595" y="503" font-size="21">A person reading is unverified</text>
+<text x="595" y="567" font-size="21">Uncertain response: stop live work</text>
+<rect x="1070" y="235" width="460" height="440" rx="20" fill="#20364F"/>
+<rect x="1070" y="235" width="460" height="9" fill="#39D9BA"/>
+<text x="1095" y="300" font-size="25" font-weight="700">3  RECORDING</text>
+<text x="1095" y="375" font-size="21">Confirm Dataset and SDK counters</text>
+<text x="1095" y="439" font-size="21">Read OUTPUT and terminal status</text>
+<text x="1095" y="503" font-size="21">Accepted but unconfirmed: fail</text>
+<text x="1095" y="567" font-size="21">Reconcile before any replay</text>
+<text class="small" x="70" y="785" font-size="22">PRIVATE LOCAL CANDIDATE • SDK init, live delivery and cloud billing remain open</text>
+<text class="small" x="70" y="840" font-size="19">Supplied-data messaging • Event consistency checks do not create an atomic delivery transaction.</text>
+</svg>

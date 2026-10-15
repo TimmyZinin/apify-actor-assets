@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#101D30"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#FFFFFF}.small{fill:#BBD1E6}</style>
+<text x="70" y="100" font-size="43" font-weight="700">Reconcile the existing run before replay</text>
+<text class="small" x="70" y="158" font-size="26">A failed run can still have accepted external messages.</text>
+<rect x="70" y="235" width="460" height="440" rx="20" fill="#20364F"/>
+<rect x="70" y="235" width="460" height="9" fill="#39D9BA"/>
+<text x="95" y="300" font-size="25" font-weight="700">1  KEEP THE RUN ID</text>
+<text x="95" y="375" font-size="21">Read the same Actor run</text>
+<text x="95" y="439" font-size="21">Confirm build and terminal status</text>
+<text x="95" y="503" font-size="21">Local timeout does not cancel it</text>
+<text x="95" y="567" font-size="21">Never infer a resend from timeout</text>
+<rect x="570" y="235" width="460" height="440" rx="20" fill="#20364F"/>
+<rect x="570" y="235" width="460" height="9" fill="#39D9BA"/>
+<text x="595" y="300" font-size="25" font-weight="700">2  READ BOTH RECORDS</text>
+<text x="595" y="375" font-size="21">Dataset: include free / error rows</text>
+<text x="595" y="439" font-size="21">OUTPUT: inspect partial and fatal</text>
+<text x="595" y="503" font-size="21">Check apiAcceptedUnrecorded</text>
+<text x="595" y="567" font-size="21">Missing old counter means unknown</text>
+<rect x="1070" y="235" width="460" height="440" rx="20" fill="#20364F"/>
+<rect x="1070" y="235" width="460" height="9" fill="#39D9BA"/>
+<text x="1095" y="300" font-size="25" font-weight="700">3  CHECK THE DESTINATION</text>
+<text x="1095" y="375" font-size="21">Compare provider evidence</text>
+<text x="1095" y="439" font-size="21">Reconcile actual event charges</text>
+<text x="1095" y="503" font-size="21">Keep message text and INPUT private</text>
+<text x="1095" y="567" font-size="21">Choose the next action explicitly</text>
+<text class="small" x="70" y="785" font-size="22">GET-ONLY RECONCILIATION • No new run, no webhook POST, no automatic replay</text>
+<text class="small" x="70" y="840" font-size="19">Supplied-data messaging • Event consistency checks do not create an atomic delivery transaction.</text>
+</svg>
