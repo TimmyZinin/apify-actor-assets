@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#FFFFFF"/>
+<rect x="84" y="65" width="84" height="10" fill="#E10A17"/>
+<text x="190" y="79" font-family="Arial" font-size="20" font-weight="700" fill="#E10A17">ZININ / APIFY ACTOR WALKTHROUGH</text>
+<text x="84" y="166" font-family="Arial" font-size="56" font-weight="700" fill="#152032">Map signals before a CRM import</text>
+<text x="84" y="288" font-family="Arial" font-size="27" font-weight="400" fill="#152032">Prepare target-shaped records for a separate controlled write.</text>
+<rect x="84" y="382" width="440" height="320" rx="18" fill="#FFFFFF" stroke="#CCD2DC" stroke-width="2"/>
+<path d="M 102 382 H 506 Q 524 382 524 400 V 451 H 84 V 400 Q 84 382 102 382" fill="#E10A17"/>
+<text x="108" y="426" font-family="Arial" font-size="23" font-weight="700" fill="#FFFFFF">SIGNALS AND MAPPING</text>
+<circle cx="113" cy="501" r="5" fill="#E10A17"/>
+<text x="133" y="510" font-family="Arial" font-size="26" font-weight="400" fill="#152032">Explicit source rows</text>
+<circle cx="113" cy="606" r="5" fill="#E10A17"/>
+<text x="133" y="615" font-family="Arial" font-size="26" font-weight="400" fill="#152032">Closed target field mapping</text>
+<path d="M 536 542 H 567 M 557 532 L 567 542 L 557 552" fill="none" stroke="#E10A17" stroke-width="4"/>
+<rect x="580" y="382" width="440" height="320" rx="18" fill="#FFFFFF" stroke="#CCD2DC" stroke-width="2"/>
+<path d="M 598 382 H 1002 Q 1020 382 1020 400 V 451 H 580 V 400 Q 580 382 598 382" fill="#E10A17"/>
+<text x="604" y="426" font-family="Arial" font-size="23" font-weight="700" fill="#FFFFFF">LOCAL TRANSFORMATION</text>
+<circle cx="609" cy="501" r="5" fill="#E10A17"/>
+<text x="629" y="510" font-family="Arial" font-size="26" font-weight="400" fill="#152032">Map allowlisted fields</text>
+<circle cx="609" cy="606" r="5" fill="#E10A17"/>
+<text x="629" y="615" font-family="Arial" font-size="26" font-weight="400" fill="#152032">Validate the output shape</text>
+<path d="M 1032 542 H 1063 M 1053 532 L 1063 542 L 1053 552" fill="none" stroke="#E10A17" stroke-width="4"/>
+<rect x="1076" y="382" width="440" height="320" rx="18" fill="#FFFFFF" stroke="#CCD2DC" stroke-width="2"/>
+<path d="M 1094 382 H 1498 Q 1516 382 1516 400 V 451 H 1076 V 400 Q 1076 382 1094 382" fill="#E10A17"/>
+<text x="1100" y="426" font-family="Arial" font-size="23" font-weight="700" fill="#FFFFFF">IMPORT PREPARATION</text>
+<circle cx="1105" cy="501" r="5" fill="#E10A17"/>
+<text x="1125" y="510" font-family="Arial" font-size="26" font-weight="400" fill="#152032">Inspect mapped records</text>
+<circle cx="1105" cy="606" r="5" fill="#E10A17"/>
+<text x="1125" y="615" font-family="Arial" font-size="26" font-weight="400" fill="#152032">No CRM connection or write</text>
+<text x="84" y="782" font-family="Arial" font-size="21" font-weight="400" fill="#5B6573">Illustrative workflow · supplied records, not fresh source verification</text>
+<text x="84" y="837" font-family="Arial" font-size="19" font-weight="400" fill="#5B6573">us-brand-signal-crm-field-mapper · build 0.3.1</text>
+</svg>
