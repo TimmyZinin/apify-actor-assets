@@ -1,11 +1,16 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-// HUB-10 wave — 9 actors, 2 diagrams each (readme-hero, readme-workflow).
+// HUB-10 wave — 10 actors, 2 diagrams each (readme-hero, readme-workflow).
 // Palette families (avoid navy-blue as the PRIMARY background — accents only):
-//   YouTube hub (4 actors)   -> red/orange family
-//   App store hub (2 actors) -> teal/cyan/green family
-//   Adjacent networks (3)    -> violet/magenta family
+//   YouTube hub (4 actors)      -> red/orange family
+//   App store hub (2 actors)    -> teal/cyan/green family
+//   Adjacent networks (3)       -> violet/magenta family
+//   texts-jobs / Indeed (1)     -> amber/gold family (own family, distinct hue
+//                                  from the red-orange YouTube set and from
+//                                  substack's violet/magenta "adjacent networks"
+//                                  slot, even though both share the texts-jobs
+//                                  hub label in contract.json)
 // Background stays neutral dark charcoal across the whole wave (not blue).
 //
 // Card body lines are budgeted to ~27 characters (Helvetica @ font-size 27 in a
@@ -234,6 +239,31 @@ const actors = [
                 { tag: 'START', heading: 'Trigger', lines: ['schedule / Apify API', 'A&R watch-list', 'release tracker'] },
                 { tag: 'RUN', heading: 'Actor run', lines: ['GET with bare UA', 'parse by object type', 'honest 404 if unknown'] },
                 { tag: 'ALERT', heading: 'Track & alert', lines: ['artist -> dashboard', 'listener shift -> alert', 'new release -> notice'] },
+            ],
+        },
+    },
+
+    // ---------- texts-jobs hub, Indeed slot (amber/gold family) ----------
+    {
+        slug: 'indeed-jobs-scraper',
+        accent: '#F5A623',
+        accent2: '#C7791F',
+        hero: {
+            title: 'Indeed Jobs Scraper',
+            subtitle: 'Search results in — title, company, salary if shown, honest empty/blocked',
+            cards: [
+                { tag: 'INPUT', heading: 'You submit', lines: ['query + location text', 'no login, no API key', 'one page per run only'] },
+                { tag: 'EVIDENCE', heading: 'The Actor reads', lines: ['results page, real browser', 'residential proxy, not DC', 'never /viewjob, ever'] },
+                { tag: 'OUTPUT', heading: 'You receive', lines: ['title, company, salary', 'job link, as text only', 'or honest blocked/empty'] },
+            ],
+        },
+        workflow: {
+            heading: 'Where it sits in your pipeline',
+            subheading: 'Job-market and hiring-signal monitoring, one page per run',
+            stages: [
+                { tag: 'START', heading: 'Trigger', lines: ['schedule / Apify API', 'competitor watch-list', 'hiring-signal tracker'] },
+                { tag: 'RUN', heading: 'Actor run', lines: ['browser hits /jobs page', 'residential proxy only', 'block -> free, honest row'] },
+                { tag: 'FEED', heading: 'Digest & alert', lines: ['job -> hiring-signal row', 'new listing -> alert', 'no listing, still free'] },
             ],
         },
     },
